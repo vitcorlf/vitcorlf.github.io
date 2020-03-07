@@ -2,9 +2,74 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sem título</title>
+<title>Ilustrações: Capas de Livros</title>
+	<link rel="shortcut icon" type="image/png" href="../favicon.png">
+	<link href="/CSS/Main Style.css" rel="stylesheet" type="text/css" media="screen">
+	<link rel="stylesheet" href="CSS/font-awesome.min.css">
+	<script type="text/javascript" src="/JS/jquery-1.11.1.min.js"></script>
+	
+	<!-- menu -->
+	<link rel="stylesheet" href="/CSS/font-awesome.min.css">
+	<div class="topnav" id="myTopnav">
+	<a href="/ilustracoes.html" class="active">ILUSTRAÇÕES</a>
+	<a href="/marcas.html">MARCAS</a>
+	<a href="/editorial.html">EDITORIAL</a>		
+	<a href="/embalagens.html">EMBALAGENS</a>
+	<a href="/promocional.html">PROMOCIONAL</a>
+	<a href="/contato.html">CONTATO</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
 </head>
 
 <body>
+
+<div>
+		<h1> Capas de Livros </h1>
+	</div>
+	
+	 <div id="wrapper">
+    
+    <ul id="big-portfolio" class="clearfix">
+<li><a href="/Ilustrações/capas_de_livros/Zodiacos.jpg" title="Os Zodíacos: A Descoberta de Áries (2015)"><img src="/Ilustrações/capas_de_livros/Zodiacos.jpg" alt="Os Zodíacos: A Descoberta de Áries (2015)"></a></li>
+		
+<li> <a href="/Ilustrações/capas_de_livros/Qualquer-Negócio.jpg" title="Qualquer Negócio (2018)"><img src="/Ilustrações/capas_de_livros/Qualquer-Negócio.jpg" alt="Qualquer Negócio (2018)"></a></li>
+      
+<li><a href="/Ilustrações/capas_de_livros/Nao-conte.jpg" title="Antologia de Contos: Não conte a Ninguém (2020)"><img src="/Ilustrações/capas_de_livros/Nao-conte.jpg" alt="Antologia de Contos: Não conte a Ninguém (2020)"></a></li>
+</ul> 
+		 
+  </div>
+	
+	<br>
+	<br>
+	<br>
+	
+	<script type="text/javascript">
+$(function(){
+  $('#portfolio').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    image: {
+      cursor: null,
+      titleSrc: 'title'
+    },
+    gallery: {
+      enabled: true,
+      preload: [0,1], // Will preload 0 - before current, and 1 after the current image
+      navigateByImgClick: true
+		}
+  });
+});
+</script>
+	
 </body>
+	
+<footer>
+	<div>
+	<a href="/index.html">
+	<img class="img-menu" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg" height="50xp"></a>
+	</div>
+</footer>
 </html>
