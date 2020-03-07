@@ -95,10 +95,9 @@ div{
 }
 
 .capa{
-	width:300px;
+	width:150px;
 	float: left;
-	paddig:5px;
-	margin-right:15px;
+	padding:10px;
 }
 
 .logo {
@@ -106,7 +105,7 @@ div{
 }
 
 .button{
-  background-color: #4CAF50; /* Green */
+  background-color: #56B7E0; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -120,7 +119,7 @@ div{
 }
 
 .button:hover {
-  background-color: #84E187;
+  background-color: #5681E0;
 }
 
 footer{
