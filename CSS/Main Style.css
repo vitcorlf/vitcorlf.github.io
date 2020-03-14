@@ -143,8 +143,7 @@ footer{
 
 	/* links */
 .topnav a {
-  float: left;
-  display: block;
+  display: inline-flex;
   color: #ffffff;
   text-align: center;
   padding: 14px 16px;
@@ -170,7 +169,7 @@ footer{
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 50px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
