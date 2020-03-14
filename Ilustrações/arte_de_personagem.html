@@ -2,9 +2,92 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sem título</title>
+<title>Ilustrações: Arte de Personagem</title>
+	<link rel="shortcut icon" type="image/png" href="/buttons/vitcorlf-favicon.ico">
+	<link href="/CSS/Main Style.css" rel="stylesheet" type="text/css">
+	
+	<!-- menu -->
+	<link rel="stylesheet" href="/CSS/font-awesome.min.css">
+	<div class="topnav" id="myTopnav">
+	<a href="/index.html">HOME</a>
+	<a href="/marcas.html">MARCAS</a>
+	<a href="/ilustracoes.html" class="active">ILUSTRAÇÕES</a>
+	<a href="/editorial.html">EDITORIAL</a>		
+	<a href="/embalagens.html">EMBALAGENS</a>
+	<a href="/promocional.html">PROMOCIONAL</a>
+	<a href="/contato.html">CONTATO</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+	
+	<script type="text/javascript" src="/JS/lightbox-plus-jquery.js"></script>
+
 </head>
 
 <body>
+
+<div>
+		<h1> Arte de Personagem </h1>
+	</div>
+	
+	 <div id="wrapper">
+    
+    <ul id="big-portfolio" class="clearfix">
+<li><a href="/Ilustrações/artes-de-personagem/Axl.jpg" title="UTAU - Axl"><img src="/Ilustrações/artes-de-personagem/Axl.jpg" alt="UTAU - Axl"></a></li>
+		
+<li><a href="/Ilustrações/artes-de-personagem/Luna.jpg" title="UTAU - Luna"><img src="/Ilustrações/artes-de-personagem/Luna.jpg" alt="UTAU - Luna"></a></li>
+      
+<li><a href="/Ilustrações/artes-de-personagem/Leo.jpg" title="UTAU - Leo"><img src="/Ilustrações/artes-de-personagem/Leo.jpg" alt="UTAU - Leo"></a></li>
+		
+<li><a href="/Ilustrações/artes-de-personagem/Alma.jpg" title="UTAU - Alma"><img src="/Ilustrações/artes-de-personagem/Alma.jpg" alt="UTAU - Alma"></a></li>
+		
+<li><a href="/Ilustrações/artes-de-personagem/Chipper.jpg" title="UTAU - Chipper"><img src="/Ilustrações/artes-de-personagem/Chipper.jpg" alt="UTAU - Chipper"></a></li>
+		
+<li><a href="/Ilustrações/artes-de-personagem/Mani.jpg" title="UTAU - Mani"><img src="/Ilustrações/artes-de-personagem/Mani.jpg" alt="UTAU - Mani"></a></li>
+</ul> 
+		 
+  </div>
+	
+	<br>
+	<br>
+	<br>
+	
+	<script type="text/javascript">
+$(function(){
+  $('#portfolio').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    image: {
+      cursor: null,
+      titleSrc: 'title'
+    },
+    gallery: {
+      enabled: true,
+      preload: [0,1], // Will preload 0 - before current, and 1 after the current image
+      navigateByImgClick: true
+		}
+  });
+});
+</script>
+	
+<script>
+	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
+	
+<footer>
+	<div>
+	<a href="/index.html">
+	<img class="img-menu" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg" height="50xp"></a>
+	</div>
+</footer>
 </html>
