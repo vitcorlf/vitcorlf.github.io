@@ -2,9 +2,84 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sem título</title>
+<title>Livro - Os Zodíacos: e a Descoberta de Áries</title>
+	<link rel="shortcut icon" type="image/png" href="/buttons/vitcorlf-favicon.ico">
+	<link href="/CSS/Main Style.css" rel="stylesheet" type="text/css">
+	
+	<!-- menu -->
+	<link rel="stylesheet" href="/CSS/font-awesome.min.css">
+	<div class="topnav" id="myTopnav">
+	<a href="/editorial.html" class="active">EDITORIAL</a>	
+	<a href="/ilustracoes.html">ILUSTRAÇÕES</a>
+	<a href="/marcas.html">MARCAS</a>
+	<a href="/embalagens.html">EMBALAGENS</a>
+	<a href="/promocional.html">PROMOCIONAL</a>
+	<a href="/contato.html">CONTATO</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+	
+	<script type="text/javascript" src="/JS/lightbox-plus-jquery.js"></script>
+
 </head>
 
 <body>
+		<div>
+		<img class="logo" src="/Marcas/Os Zodíacos/Os Zodíacos.svg" alt="Logo HIKER" width="500px"/>
+		</div>	
+	<div>
+		<h1> Livro: Os Zodíacos - e a Descoberta de Áries </h1>
+		<h4> Capa de Livro</h4>
+	</div>	
+	<div>
+		<a class="capa" href="/Editorial/Os-Zodiacos/Capa-Refeita.jpg"><img src="/Editorial/Os-Zodiacos/Capa-Refeita.jpg" alt="Capa"></a>
+		<p>Um príncipe da segunda linha de sucessão e um órfão de mãe é rejeitado pelo pai, de cidades diferentes, o que eles têm em comum? O desejo do poder. <br> <br>
+		Andrews, um dos príncipes da cidade do Leste liberta quarenta criaturas com intenção de colocar ordem em sua cidade. Kalil, o coordenador chefe da justiça da cidade d´Oeste, também tinha a intenção de libertar as criaturas, entretanto, ficou para trás nesta corrida. Mas a Estrela Zodiacal envia-lhe um presente, ou era isto que ele achava…</p>
+	</div>
+	
+	<div> <!-- Link Externo -->
+		<a href="https://editoramultifoco.com.br/loja/product/os-zodiacos-e-descoberta-de-aries/" class="button" target="_blank">Compre Já!</a>
+	</div>
+	<br>
+	<br>
+	<br>
+	
+<script type="text/javascript">
+$(function(){
+  $('#portfolio').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    image: {
+      cursor: null,
+      titleSrc: 'title'
+    },
+    gallery: {
+      enabled: true,
+      preload: [0,1], // Will preload 0 - before current, and 1 after the current image
+      navigateByImgClick: true
+		}
+  });
+});
+</script>
+	
+<script>
+	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
+	
+<footer>
+	<div>
+	<a href="/index.html">
+	<img class="img-menu" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg" height="50xp"></a>
+	</div>
+</footer>
 </html>
