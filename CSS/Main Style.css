@@ -39,8 +39,7 @@ html {
 
 h1{
 	color: white; 
-	font-weight: 900
-}
+	font-weight: 900}
 
 h2{
 	color:white;
@@ -54,8 +53,7 @@ h4{
 }
 
 a:link{
-	color: #FFCC00
-}
+	color: #FFCC00}
 
 p{
 	font-size: 14px;
@@ -65,48 +63,40 @@ p{
 	text-align: justify;
 	max-width: 1000px;
 	margin-left: auto;
-    margin-right: auto;
-}
+    margin-right: auto;}
 
 p.short{
-	text-align:center;
-}
+	text-align:center;}
 
 div{
 	
 	text-align:center;
 	max-width: 90%;
-	margin:auto;
-}
+	margin:auto;}
 
 .marcas{
 	float:left;
 	width:16%;
 	margin-left: auto;
-    margin-right: auto;	
-}
+    margin-right: auto;}
 
 .marcas-reducoes{
 	float:left;
 	width:8%;
 	margin-left: auto;
-    margin-right: auto;	
-}
+    margin-right: auto;	}
 
 
 .img-menu{
-	padding:5px;
-}
+	padding:5px;}
 
 .capa{
 	width:200px;
 	float: left;
-	padding:10px;
-}
+	padding:10px;}
 
 .logo {
-	object-fit:contain;
-}
+	object-fit:contain;}
 
 .button{
   background-color: #D60D47; /* Pink */
@@ -119,8 +109,7 @@ div{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-}
+  font-size: 16px;}
 
 div.brick {
 	background: rgba(255,255,255,0.50);
@@ -129,20 +118,16 @@ div.brick {
 	column-count: 5;
 	column-width: 20%;
 	column-gap:10px;
-	column-fill:auto;
-}
+	column-fill:auto;}
 
 .item{
-	border-radius:5px;
-}
+	border-radius:5px;}
 
 .button:link{
-	color:white;
-}
+	color:white;}
 
 .button:hover {
-  background-color: #5681E0;
-}
+  background-color: #5681E0;}
 
 footer{
 	position: fixed;
