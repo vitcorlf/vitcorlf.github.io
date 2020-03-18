@@ -128,7 +128,14 @@ div.brick5 {
 	column-width: 20%;
 	column-gap:10px;
 	column-fill:auto;}
-
+/*/////////////*/
+@media only screen and (max-width: 450px) {
+	  div.brick4{column-count:2;}
+	  div.brick5{column-count:2;}
+  }
+	
+	
+	
 .item{
 	border-radius:5px;}
 
