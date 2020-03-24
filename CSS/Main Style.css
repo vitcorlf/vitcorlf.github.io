@@ -30,7 +30,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 	margin:0;
 	padding:0;
 }
-html {
+body {
 	background: url(/buttons/BG.svg)no-repeat fixed center; 
 	background-size: cover;
 	font-family:'Catamaran'}
