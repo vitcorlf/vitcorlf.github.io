@@ -28,13 +28,12 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 *{
 	margin:0;
-	padding:0;
-}
+	padding:0;}
+
 body {
 	background: url(/buttons/BG.svg)no-repeat fixed center; 
 	background-size: cover;
 	font-family:'Catamaran'}
-
 
 h1{
 	color: white; 
@@ -44,15 +43,13 @@ h1{
 h2{
 	color:white;
 	padding:5px;
-	font-weight:700
-}
+	font-weight:700;}
 
 h4{
 	font-size:11px;
 	padding:5px 5px 15px 5px;
 	color:white; 
-	font-weight: 300
-}
+	font-weight: 300;}
 
 a{
 	color: #FFCC00}
@@ -71,7 +68,6 @@ p.short{
 	text-align:center;}
 
 div{
-	
 	text-align:center;
 	max-width: 90%;
 	margin:auto;}
@@ -86,8 +82,7 @@ div{
 	float:left;
 	width:8%;
 	margin-left: auto;
-    margin-right: auto;	}
-
+    margin-right: auto;}
 
 .img-menu{
 	padding:5px;}
@@ -130,14 +125,13 @@ div.brick5 {
 	column-width: 20%;
 	column-gap:10px;
 	column-fill:auto;}
+
 /*/////////////*/
 @media only screen and (orientation:portrait) {
 	  div.brick4{column-count:2;}
 	  div.brick5{column-count:2;}
   }
-	
-	
-	
+		
 .item{
 	border-radius:5px;}
 
@@ -170,25 +164,21 @@ footer{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-}
+  font-size: 17px;}
 
 	/* hover links */
 .topnav a:hover {
   background-color: #1E1E27 ;
-  color: #56B7E0;
-}
+  color: #56B7E0;}
 
 /* Highlight current page */
 .topnav a.active {
   background-color: #D60D47; 
-  color: white;
-}
+  color: white;}
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-  display: none;
-}
+  display: none;}
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
