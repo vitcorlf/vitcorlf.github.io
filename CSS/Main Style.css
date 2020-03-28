@@ -108,7 +108,7 @@ div.brick5 {
 .capa{
 	width:200px;
 	float: left;
-	padding:10px;}
+	padding:0px 10px 10px 0px;}
 
 .logo {
 	object-fit:contain;}
