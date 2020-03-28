@@ -90,6 +90,11 @@ div.brick5 {
 	column-gap:10px;
 	column-fill:auto;}
 
+/*/////////////*/
+@media only screen and (orientation:portrait) {
+	  div.brick4{column-count:2;}
+	  div.brick5{column-count:2;}}
+
 .marcas{
 	float:left;
 	width:16%;
@@ -126,11 +131,6 @@ div.brick5 {
   display: inline-block;
   font-size: 16px;}
 
-/*/////////////*/
-@media only screen and (orientation:portrait) {
-	  div.brick4{column-count:2;}
-	  div.brick5{column-count:2;}
-  }
 		
 .item{
 	border-radius:5px;}
@@ -148,6 +148,14 @@ footer{
 	width: 100%;
 	color: white;
 	text-align: center;}
+
+.big-portfolio{
+	float:left;
+	background: rgba(255,255,255,0.50);
+	border-radius: 10px;
+	width: 30%;
+	margin: 10px;
+	padding:5px;}
 
 /*Responsive Menu*/
 
@@ -230,7 +238,7 @@ img { border: 0; max-width: 100%; }
 #wrapper {
   display: block;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 #portfolio {
