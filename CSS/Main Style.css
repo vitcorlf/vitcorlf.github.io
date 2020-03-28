@@ -68,9 +68,9 @@ p.short{
 	text-align:center;}
 
 div{
+	margin:auto;
 	text-align:center;
-	max-width: 90%;
-	margin:auto;}
+	max-width: 90%;}
 
 .marcas{
 	float:left;
