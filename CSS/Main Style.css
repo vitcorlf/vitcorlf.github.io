@@ -90,22 +90,33 @@ div{
 	text-align:center;
 	max-width: 90%;}
 
-div.brick4 {
-	background: rgba(255,255,255,0.50);
+div.brick3 {
 	border-radius: 10px;
+	padding: 10px;
+	column-count: 3;
+	column-width: 33,3%;
+	column-gap: 20px;
+	column-fill:auto;}
+
+div.brick4 {
 	padding:10px;
 	column-count: 4;
-	column-width: 20%;
-	column-gap:10px;
+	column-width: 25%;
+	column-gap:20px;
 	column-fill:auto;}
 
 div.brick5 {
-	background: rgba(255,255,255,0.50);
-	border-radius: 10px;
 	padding:10px;
 	column-count: 5;
 	column-width: 20%;
-	column-gap:10px;
+	column-gap:20px;
+	column-fill:auto;}
+
+div.brick6 {
+	padding:10px;
+	column-count: 6;
+	column-width: 16,6%;
+	column-gap:20px;
 	column-fill:auto;}
 
 /*/////////////*/
@@ -160,6 +171,12 @@ div.brick5 {
 
 .item{
 	border-radius:5px;}
+
+.item-image{
+	border-style:solid;
+	border-radius: 8px;
+	border-color: rgba(0,0,5,0.80);
+	border-width: 3px;}
 
 .button:link{
 	color:white;}
