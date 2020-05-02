@@ -221,14 +221,14 @@ footer{
 .uphover-effect {
   position: relative;
   display: inline-block;
-  background-color: #9147ff;
+  background-color: #FFCC00;
 }
 
   .uphover-effect:before,
   .uphover-effect:after {
     content: '';
     display: block;
-    background-color: #9147ff;
+    background-color: #FFCC00;
     width: 8px;
     height: 8px;
     position: absolute;
