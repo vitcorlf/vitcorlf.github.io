@@ -90,6 +90,14 @@ div{
 	text-align:center;
 	max-width: 90%;}
 
+div.brick2 {
+	border-radius: 10px;
+	padding: 10px;
+	column-count: 2;
+	column-width: 50%;
+	column-gap: 20px;
+	column-fill:auto;}
+
 div.brick3 {
 	border-radius: 10px;
 	padding: 10px;
@@ -121,8 +129,11 @@ div.brick6 {
 
 /*/////////////*/
 @media only screen and (orientation:portrait) {
-	  div.brick4{column-count:2;}
-	  div.brick5{column-count:2;}}
+	div.brick2{column-count:1;}
+	div.brick3{column-count:1;}
+	div.brick4{column-count:2;}
+	div.brick5{column-count:3;}
+	div.brick6{column-count:3;}}
 
 .marcas{
 	float:left;
@@ -205,6 +216,60 @@ footer{
 	border-radius: 5px;
 	
 }
+
+/*/////////////////////*/
+.uphover-effect {
+  position: relative;
+  display: inline-block;
+  background-color: #9147ff;
+}
+
+  .uphover-effect:before,
+  .uphover-effect:after {
+    content: '';
+    display: block;
+    background-color: #9147ff;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    transition: all .15s ease;
+  }
+
+  .uphover-effect:before {
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: rotate(-45deg) scale(0);
+  }
+
+  .uphover-effect:after {
+    right: 0;
+    bottom: 0;
+    transform-origin: bottom right;
+    transform: rotate(45deg) scale(0);
+  }
+
+  .uphover-effect__thumbnail {
+    display: block;
+    transform: translate(0, 0);
+    transition: all .15s ease;
+    position: relative;
+    z-index: 10;
+  }
+
+.uphover-effect:hover .uphover-effect__thumbnail {
+  transform: translate(6px, -6px);
+}
+
+.uphover-effect:hover:before {
+  transform: rotate(-45deg) scale(1);
+}
+
+.uphover-effect:hover:after {
+  transform: rotate(45deg) scale(1);
+}
+/*////////////////////////*/
+
 /*Responsive Menu*/
 
 	/* background */
