@@ -172,6 +172,11 @@ div.header{
   }
 }
 
+@media screen and (max-width:1020px){
+	a{font-size:20px;}
+	.logo{width:50%}
+}
+
 /*/Responsive Menu*/
 
 
@@ -211,6 +216,14 @@ p{
 
 p.short{
 	text-align:center;}
+
+@media screen and (max-width:1020px){
+	h1{font-size:25px;}
+	h2{font-size:20px;}
+	h4{font-size:16px}
+	p{font-size:18px;}
+	img.logo-pagina{width:100%;}	
+}
 
 div{
 	margin:auto;
@@ -284,6 +297,10 @@ div.brick6 {
 
 .logo {
 	object-fit:contain;}
+
+.logo-pagina{
+	width:50%;
+}
 
 .button{
   background-color: #D60D47; /* Pink */
