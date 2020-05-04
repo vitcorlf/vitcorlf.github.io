@@ -7,23 +7,23 @@
 	<title>Grupo HotMídias - VitcorLF</title>
 	<link rel="shortcut icon" type="image/png" href="/buttons/vitcorlf-favicon.ico">
 	<link href="/CSS/Main Style.css?v=1" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="CSS/font-awesome.min.css">
-	<script type="text/javascript" src="/JS/jquery-1.11.1.min.js"></script>
 	
 	<!-- menu -->
-	<link rel="stylesheet" href="/CSS/font-awesome.min.css">
-	<div class="topnav" id="myTopnav">
-	<a href="/index.html">HOME</a>
-	<a href="/marcas.html" class="active">MARCAS</a>
-	<a href="/ilustracoes.html">ILUSTRAÇÕES</a>
-	<a href="/editorial.html">EDITORIAL</a>		
-	<a href="/embalagens.html">EMBALAGENS</a>
-	<a href="/promocional.html">PROMOCIONAL</a>
-	<a href="/contato.html">CONTATO</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+	<header class="header">
+	<a href="/index.html">
+	<img class="logo" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg" height="50xp"></a>
+	<input class="menu-btn" type="checkbox" id="menu-btn" />
+	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+	<ul class="menu">
+		<li><a href="/index.html">HOME</a></li>
+		<li><a href="/marcas.html" class="active">MARCAS</a></li>
+		<li><a href="/ilustracoes.html">ILUSTRAÇÕES</a></li>
+		<li><a href="/editorial.html">EDITORIAL</a></li>
+		<li><a href="/embalagens.html">EMBALAGENS</a></li>
+		<li><a href="/promocional.html">PROMOCIONAL</a></li>
+		<li><a href="/contato.html">CONTATO</a></li>
+	</ul>
+	</header>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162101116-1"></script>
@@ -37,6 +37,8 @@
 </head>
 
 <body>
+	<br><br><br>
+	
 	<div>
 		<img class="logo" src="/Marcas/hotmidias/HotMidias C.svg" alt="Logo HIKER" width="500px"/>
 	</div>	
@@ -145,30 +147,9 @@
 	<br>
 	<br>
 	
-	<script type="text/javascript">
-$(function(){
-  $('#portfolio').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    image: {
-      cursor: null,
-      titleSrc: 'title'
-    },
-    gallery: {
-      enabled: true,
-      preload: [0,1], // Will preload 0 - before current, and 1 after the current image
-      navigateByImgClick: true
-		}
-  });
-});
-</script>
-	
 </body>
 	
 <footer>
-	<div>
-	<a href="/index.html">
-	<img class="rodape" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg" height="50xp"></a>
-	</div>
 </footer>
+
 </html>

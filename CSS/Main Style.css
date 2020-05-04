@@ -13,7 +13,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 */
 
-/*Scrollbar*/
+/*/////Scrollbar/////*/
 ::-webkit-scrollbar-track {
     background-color: #1E1E27;
 }
@@ -24,31 +24,155 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 ::-webkit-scrollbar-thumb {
     background: #FFCC00;
 }
-/*Scrolbar*/
+/*/////Scrolbar/////*/
 
-*{
-	margin:0;
-	padding:0;}
+/*/////Responsive Menu/////*/
+/* header */
 
-/*Menu*/
-.nav-menu {
-	background:#08080F;
-	font-weight: 700;
-    font-size: 15px;
-    text-align: center;
+div.header{
+	max-width:98%;
+	
+}
+.header {
+
+  border-radius:5px;  
+  background-color: #08080F ;
+  box-shadow: 2px 2px 4px 2px rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
-.nav-menu div{
-	width: 119px;
-    border-left: solid 0.5px;
-	border-right: solid 0.5px;
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  overflow: hidden;
+  background-color: #08080F  ;
+}
+
+.header li a {
+  color: #FFCC00;
+  font-weight:700;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  color: #D60D47 ;
+  background-color: #000005   ;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  padding:5px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #FFCC00;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header a.active {
+  background-color: #D60D47; 
+  color: white;}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #FFCC00;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: none;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+@media (min-width: 1210px) {
+  .header li {
     float: left;
-    padding: 10px 0;
+  }
+  .header li a {
+	text-align: center;
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
 }
-/*/menu*/
 
-body {
-	background: url(/buttons/BG.svg)no-repeat fixed center; 
+/*/Responsive Menu*/
+
+
+body {	background: url(/buttons/BG.svg)no-repeat fixed center; 
 	background-size: cover;
 	font-family:'Catamaran'}
 
@@ -217,7 +341,7 @@ footer{
 	
 }
 
-/*/////////////////////*/
+/*/////////Uphover-Effect////////////*/
 .uphover-effect {
   position: relative;
   display: inline-block;
@@ -269,63 +393,6 @@ footer{
   transform: rotate(45deg) scale(1);
 }
 /*////////////////////////*/
-
-/*Responsive Menu*/
-
-	/* background */
-.topnav {
-  background-color: #08080F;
-  overflow: hidden;
-}
-
-	/* links */
-.topnav a {
-  display: inline-flex;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;}
-
-	/* hover links */
-.topnav a:hover {
-  background-color: #1E1E27 ;
-  color: #56B7E0;}
-
-/* Highlight current page */
-.topnav a.active {
-  background-color: #D60D47; 
-  color: white;}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;}
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 50px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-/* /Responsive Menu*/
-
 
 /*lightbox*/
 

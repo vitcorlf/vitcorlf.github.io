@@ -9,19 +9,21 @@
 	<link href="/CSS/Main Style.css?v=1" rel="stylesheet" type="text/css">
 	
 	<!-- menu -->
-	<link rel="stylesheet" href="/CSS/font-awesome.min.css">
-	<div class="topnav" id="myTopnav">
-	<a href="/index.html">HOME</a>
-	<a href="/marcas.html">MARCAS</a>
-	<a href="/ilustracoes.html">ILUSTRAÇÕES</a>
-	<a href="/editorial.html">EDITORIAL</a>		
-	<a href="/embalagens.html">EMBALAGENS</a>
-	<a href="/promocional.html" class="active">PROMOCIONAL</a>
-	<a href="/contato.html">CONTATO</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+	<header class="header">
+	<a href="/index.html">
+	<img class="logo" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg" height="50xp"></a>
+	<input class="menu-btn" type="checkbox" id="menu-btn" />
+	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+	<ul class="menu">
+		<li><a href="/index.html">HOME</a></li>
+		<li><a href="/marcas.html">MARCAS</a></li>
+		<li><a href="/ilustracoes.html">ILUSTRAÇÕES</a></li>
+		<li><a href="/editorial.html">EDITORIAL</a></li>
+		<li><a href="/embalagens.html">EMBALAGENS</a></li>
+		<li><a href="/promocional.html" class="active">PROMOCIONAL</a></li>
+		<li><a href="/contato.html">CONTATO</a></li>
+	</ul>
+	</header>
 	
 	<script type="text/javascript" src="/JS/lightbox-plus-jquery.js"></script>
 
@@ -37,7 +39,8 @@
 </head>
 
 <body>
-
+<br> <br> <br>
+	
 	<div>
 		<h1> Promocional </h1>
 	<p class="short">Peças promocionais avulsas.</p>
@@ -75,41 +78,8 @@
 	<br>
 	<br>
 	
-	<script type="text/javascript">
-$(function(){
-  $('#portfolio').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    image: {
-      cursor: null,
-      titleSrc: 'title'
-    },
-    gallery: {
-      enabled: true,
-      preload: [0,1], // Will preload 0 - before current, and 1 after the current image
-      navigateByImgClick: true
-		}
-  });
-});
-</script>
-	
-<script>
-	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 </body>
 	
 <footer>
-	<div>
-	<a href="/index.html">
-	<img class="rodape" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg" height="50xp"></a>
-	</div>
 </footer>
 </html>
