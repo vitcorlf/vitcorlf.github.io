@@ -36,7 +36,7 @@ div.header{
 }
 .header {
   border-radius:5px;  
-  background-color: rgba(8,8,15,0.95) ;
+  background-color: rgba(0,0,0,0.95) ;
   box-shadow: 2px 2px 4px 2px rgba(0,0,0,1);
   position: fixed;
   width: 98%;
@@ -62,9 +62,13 @@ div.header{
 
 .header li a:hover,
 .header .menu-btn:hover {
-  color: #D60D47 ;
-  background-color: #000005   ;
+  color: #FFCC00 ;
+  background-color: rgba(86,183,224,0.80);
 }
+
+.header a.active {
+  background-color: rgba(214,13,71,0.80); 
+  color: white;}
 
 .header .logo {
   display: block;
@@ -100,10 +104,6 @@ div.header{
   transition: background .2s ease-out;
   width: 80px;
 }
-
-.header a.active {
-  background-color: #D60D47; 
-  color: white;}
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
@@ -154,7 +154,7 @@ div.header{
 @media (min-width: 1200px) {
 	
   .header {
-    background-color: rgba(8,8,15,0.40) ;
+    background-color: rgba(0,0,0,0.40) ;
   }
 	
   .header li {
@@ -219,9 +219,9 @@ p.short{
 	text-align:center;}
 
 @media screen and (max-width:1020px){
-	h1{font-size:32px;}
-	h2{font-size:28px;}
-	h4{font-size:16px}
+	h1{font-size:50px;}
+	h2{font-size:48px;}
+	h4{font-size:17px}
 	p{font-size:18px;}
 	a{font-size:22px;}
 	img.logo-pagina{width:100%;}
