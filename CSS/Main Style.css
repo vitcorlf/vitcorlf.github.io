@@ -182,10 +182,6 @@ div.header{
 
 .header .sub-menu {
 	border-width: 0;
-	margin: 0;
-	top: 100%;
-	left: 0;
-	width: 12em;
 	z-index: 3000;
 }
 
@@ -218,34 +214,68 @@ div.header{
 
 #toggle-menu .drop-icon, 
 .header li label.drop-icon {
-  position: absolute;
   right: 1.5em;
   top: 1.25em;
 }
 
 .header label.drop-icon, #toggle-menu span.drop-icon {
-  border-radius: 50%;
-  width: 1em;
-  height: 1em;
   text-align: center;
-  background-color: rgba(0, 0, 0, .125);
   text-shadow: 0 0 0 transparent;
-  color: rgba(255, 255, 255, .75);
 }
 
 .header .drop-icon {
   line-height: 1;
 }
 
-@media only screen and (min-width: 1020px) {
+@media only screen and (max-width: 1020px) {
 
- #toggle-menu, 
-  .header label.drop-icon {
+.header .main-menu {
+    display: block;
+  }
+	
+#toggle-menu, 
+.header label.drop-icon {
     display: none;
 }
 
-  .header ul span.drop-icon {
+.header ul span.drop-icon {
     display: inline-block;
+  }
+
+.header li {
+    float: left;
+    border-width: 0 1px 0 0;
+  }
+
+.header .sub-menu li {
+    float: none;
+  }
+
+.header .sub-menu {
+    border-width: 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    width: 12em;
+    z-index: 3000;
+  }
+
+.header .sub-menu, 
+.header input[type="checkbox"]:checked + .sub-menu {
+	display: none;
+  }
+
+.header .sub-menu li {
+    border-width: 0 0 1px;
+  }
+
+.header .sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+  }
+
+.header li:hover > input[type="checkbox"] + .sub-menu {
+    display: block;
   }
 }
 /*//////////////////////////////////////////////////////////Textos*/
