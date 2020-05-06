@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="theme-color" content="#D60D47">
+<meta name="google-site-verification" content="google-site-verification=JFSF4eL7hYyLqXr6MTblgNqa2gFqUL4Q-UzpLrzpuRE">
+<title>Stream! - VitcorLF</title>
+	<link rel="shortcut icon" type="image/png" href="/buttons/vitcorlf-favicon.ico">
+	<link href="/CSS/Main Style.css?v=1" rel="stylesheet" type="text/css">
+	
+	<!-- menu -->
+	<nav class="header">
+	<a href="/index.html">
+	<img class="logo" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg" height="50xp"></a>
+	<input class="menu-btn" type="checkbox" id="menu-btn" />
+	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+	<ul class="menu">
+		<li><a href="/index.html">HOME</a></li>
+		<li><a href="/stream.html" class="active">STREAM</a></li>
+		
+		<li><a href="/design.html">DESIGN
+			<span class="drop-icon">▾</span>
+       		<label title="Toggle Drop-down" class="drop-icon" for="sm1">▾</label></a>
+				<input type="checkbox" id="sm1">
+				<ul class="sub-menu">
+					<li><a href="/marcas.html">MARCAS</a></li>
+					<li><a href="/ilustracoes.html">ILUSTRAÇÕES</a></li>
+					<li><a href="/editorial.html">EDITORIAL</a></li>
+					<li><a href="/embalagens.html">EMBALAGENS</a></li>
+					<li><a href="/promocional.html">PROMOCIONAL</a></li></li></ul>
+		
+		
+		<li><a href="/contato.html">CONTATO</a></li>
+	</ul>
+	</nav>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162101116-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-162101116-1');
+</script>
+</head>
+
+<body>
+<br><br><br><br><br>
+	
+    <div id="twitch-embed"></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+		width: "100%",
+        height: 480,
+        channel: "VitcorLF",
+		theme: "Dark",
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+        parent: ["embed.example.com", "othersite.example.com"]
+      });
+    </script>
+	
+<br><br><br><br><br>
+</body>
+	
+<footer>
+</footer>
+	
+</html>
