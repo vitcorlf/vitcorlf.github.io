@@ -230,7 +230,7 @@ div.header{
 @media only screen and (min-width: 1020px) {
 
 .header .main-menu {
-    display: block;
+    display: block; 
   }
 	
 #toggle-menu, 
@@ -528,7 +528,6 @@ div.brick6 {
   transform: rotate(45deg) scale(1);
 }
 /*////////////////////////*/
-
 
 /*lightbox*/
 
