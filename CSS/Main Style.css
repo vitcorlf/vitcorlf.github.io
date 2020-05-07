@@ -227,7 +227,7 @@ div.header{
   line-height: 1;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (min-width: 1020px) {
 
 .header .main-menu {
     display: block;
