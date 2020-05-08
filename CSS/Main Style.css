@@ -53,13 +53,15 @@ div.header{
 
 .header li a:hover,
 .header .menu-btn:hover {
+  border-radius:5px;
   color: #FFCC00 ;
   background-color: rgba(86,183,224,0.80);
 }
 
 .header a.active {
-  background-color: rgba(214,13,71,0.80); 
-  color: white;}
+	border-radius:5px;
+	background-color: rgba(214,13,71,0.80); 
+	color: white;}
 
 .header .logo {
   display: block;
@@ -144,24 +146,27 @@ div.header{
 
 @media (min-width: 1020px) {
 	
-  .header {
+.header {
     background-color: rgba(0,0,0,0.40) ;
   }
 	
-  .header li {
+.header li {
     float: left;
   }
-  .header li a {
+	
+.header li a {
 	font-size:16px;
 	text-align: center;
     padding: 20px 30px;
   }
-  .header .menu {
+	
+.header .menu {
     clear: none;
     float: right;
     max-height: none;
   }
-  .header .menu-icon {
+	
+.header .menu-icon {
     display: none;
   }
 }
@@ -412,7 +417,26 @@ div.brick6 {
     margin-right: auto;}
 
 .img-menu{
-	padding:5px;}
+	position: relative;
+	display: inline-block;}
+
+.img-menu .img-top {
+	height:150px;
+	transition: 0.4s;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;}
+
+.img-menu .img-bottom{
+	height:150px;
+	opacity:0.4;
+}
+
+.img-menu:hover .img-top {
+	transform: 0.5s ease-out;
+	display: inline;}
 
 .capa{
 	width:200px;
@@ -431,22 +455,13 @@ div.brick6 {
   border: none;
   color: white;
   padding: 15px 32px;
-  width: 80%;
+  width: 100%;
   transition-duration: 0.4s;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;}
-
-.nav-home{
-	position: absolute;
-	top: auto;
-	left: 10%;
-	bottom: 10%;
-	font-size: 25px;
-	font-weight: 800;
-}
 
 .item{
 	border-radius:5px;}
