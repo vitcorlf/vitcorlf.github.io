@@ -306,8 +306,14 @@ h4=Trabalhos executados
 p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
+html{
+	height:100%;
+	width:100%;
+}
 
-body {	
+body {
+	height:100%;
+	width:100%;
 	background: url(/buttons/BG.svg)no-repeat fixed center; 
 	background-size: cover;
 	font-family:'Catamaran'}
@@ -359,7 +365,6 @@ p.short{
 }
 
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
-
 div{
 	margin:auto;
 	text-align:center;
