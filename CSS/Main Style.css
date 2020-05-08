@@ -142,7 +142,7 @@ div.header{
   top: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1020px) {
 	
   .header {
     background-color: rgba(0,0,0,0.40) ;
@@ -474,6 +474,10 @@ div.brick6 {
 	background-color: rgba(0,0,5,0.80);
 	border-radius: 5px;
 	
+}
+
+@media only screen and (orientation:portrait){
+	.img-menu{width:50%}
 }
 
 /*//////////////////////////////////////////////////////////Uphover-Effect////////////*/
