@@ -156,6 +156,7 @@ div.header{
   }
 	
 .header li a {
+	width:100px;
 	font-size:16px;
 	text-align: center;
     padding: 20px 30px;
@@ -173,6 +174,14 @@ div.header{
 }
 
 /*dropdown*/
+.sub-menu li a {
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.50);
+	color: #56B7E0 ;
+	font-size:50px;
+	text-align: center;
+    padding: 20px 30px;
+  }
 
 .header .sub-menu {
   display: none;
@@ -257,6 +266,10 @@ div.header{
 .header .sub-menu li {
     float: none;
   }
+	
+.sub-menu li a{
+	font-size:16px;
+	}
 
 .header .sub-menu {
     border-width: 0;
