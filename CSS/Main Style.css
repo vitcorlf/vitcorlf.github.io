@@ -65,6 +65,7 @@ div.header{
 
 .header .logo {
   display: block;
+  margin:0px auto;
   float: left;
   padding:5px;
   text-decoration: none;
