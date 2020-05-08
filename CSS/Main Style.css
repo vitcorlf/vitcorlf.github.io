@@ -84,7 +84,7 @@ div.header{
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 50px 20px;
+  padding: 40px 20px;
   position: relative;
   user-select: none;
 }
@@ -342,7 +342,6 @@ p.short{
 	h4{font-size:15px}
 	p, p.short{font-size:18px;}
 	a.button{font-size:30px; font-weight:900; letter-spacing: 2px;}
-	img.logo-pagina{width:100%;}
 }
 
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
@@ -498,6 +497,7 @@ div.brick6 {
 }
 
 @media only screen and (orientation:portrait){
+	img.logo-pagina{width:100%;}
 	.img-top{width:100%}
 	.img-bottom{width:1000%}
 	.marcas{width:50%;}
