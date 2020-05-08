@@ -339,15 +339,11 @@ p.short{
 @media screen and (max-width:1020px){
 	h1{font-size:65px;}
 	h2{font-size:48px;}
-	h4{font-size:17px}
+	h4{font-size:15px}
 	p, p.short{font-size:18px;}
 	a.button{font-size:30px; font-weight:900; letter-spacing: 2px;}
 	img.logo-pagina{width:100%;}
 }
-
-@media screen and (max-width:1020px){
-	.logo{height:100px;}
-	}
 
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
 
@@ -405,16 +401,24 @@ div.brick6 {
 /*/////////////////////////////////////////////////////Imagens*/
 
 .marcas{
-	float:left;
-	width:16%;
+	width:50%;
+	height:150px;
 	margin-left: auto;
     margin-right: auto;}
 
 .marcas-reducoes{
 	float:left;
-	width:8%;
+	width:25%;
+	height:150px;
 	margin-left: auto;
     margin-right: auto;}
+
+.img-galery{
+	padding: 3px;
+	height:150px;
+	width:auto;
+	border-radius: 5px;
+}
 
 .img-menu{
 	position: relative;
@@ -427,7 +431,7 @@ div.brick6 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 99;}
+	z-index: 2;}
 
 .img-menu .img-bottom{
 	height:150px;
@@ -441,7 +445,7 @@ div.brick6 {
 .capa{
 	width:200px;
 	float: left;
-	padding:0px 10px 10px 0px;}
+	padding:0px 10px 3px 0px;}
 
 .logo {
 	object-fit:contain;}
@@ -452,16 +456,24 @@ div.brick6 {
 
 .button{
   background-color: #D60D47; /* Pink */
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  color: #FFF;
+  padding: 15px;
+  margin: 10px 0px 10px 0px;
   width: 100%;
   transition-duration: 0.4s;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;}
+  display: block;
+  font-size: 16px;
+  font-weight:700;}
+
+.button:link{
+	color: white;}
+
+.button:hover {
+  color:#FFCC00;
+  background-color:  rgba(86,183,224,0.80);}
 
 .item{
 	border-radius:5px;}
@@ -471,12 +483,6 @@ div.brick6 {
 	border-radius: 8px;
 	border-color: rgba(0,0,5,0.80);
 	border-width: 3px;}
-
-.button:link{
-	color:white;}
-
-.button:hover {
-  background-color: #5681E0;}
 
 .big-portfolio{
 	float:left;
@@ -489,12 +495,14 @@ div.brick6 {
 .rodape{
 	background-color: rgba(0,0,5,0.80);
 	border-radius: 5px;
-	
 }
 
 @media only screen and (orientation:portrait){
-	.img-menu{width:50%}
-}
+	.img-top{width:100%}
+	.img-bottom{width:1000%}
+	.marcas{width:50%;}
+	img.marcas-reducoes{width:25%}
+	}
 
 /*//////////////////////////////////////////////////////////Uphover-Effect////////////*/
 .uphover-effect {
