@@ -367,6 +367,9 @@ div{
 	max-width: 90%;}
 
 div.div-100{
+	padding-top: auto;
+	padding-bottom:auto;
+	text-align:center;
 	max-width:100%;
 }
 
