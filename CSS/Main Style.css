@@ -76,7 +76,6 @@ div.header{
 .header .menu {
   clear: both;
   max-height: 0;
-  max-height: 0;
   transition: max-height .2s ease-out;
 }
 
@@ -419,6 +418,16 @@ div.brick6 {
 
 /*/////////////////////////////////////////////////////Imagens*/
 
+.home-menuR{
+	float:right;
+	width:80%;
+}
+
+.home-menuL{
+	float:left;
+	width:80%;
+}
+
 .marcas{
 	width:50%;
 	height:150px;
@@ -504,11 +513,10 @@ div.brick6 {
 	border-width: 3px;}
 
 .big-portfolio{
-	float:left;
-	background: rgba(255,255,255,0.50);
-	border-radius: 10px;
 	width: 30%;
-	margin: 10px;
+	background: rgba(0,0,5,0.80);
+	border-radius: 5px;
+	margin: 5px;
 	padding:5px;}
 
 .rodape{
@@ -517,11 +525,12 @@ div.brick6 {
 }
 
 @media only screen and (orientation:portrait){
+	.img-top {width:100%;}
+	.img-bottom {width:100%;}
+	.marcas {width:50%;}
+	.big-portfolio {width:100%;}
+	img.marcas-reducoes{width:25%;}
 	img.logo-pagina{width:100%;}
-	.img-top{width:100%}
-	.img-bottom{width:1000%}
-	.marcas{width:50%;}
-	img.marcas-reducoes{width:25%}
 	}
 
 /*//////////////////////////////////////////////////////////Uphover-Effect////////////*/
@@ -615,30 +624,11 @@ img { border: 0; max-width: 100%; }
   margin-right: 20px;
   margin-bottom: 20px;
 }
-#big-portfolio li {
-  display: block;
-  float: left;
-  width: 30%;
-  max-width: 500px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
 
 #portfolio li a {
   display: block;
   padding: 8px;
   background: rgba(255,255,255,0.40);
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.25);
-  -moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.25);
-  box-shadow: 1px 2px 2px rgba(0,0,0,0.25);
-}
-#big-portfolio li a {
-  display: block;
-  padding: 8px;
-  background: #fff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
