@@ -426,11 +426,12 @@ div.brick6 {
 
 /*/////////////*/
 @media only screen and (orientation:portrait) {
+	div {width:99%;}
 	div.brick2{column-count:1;}
 	div.brick3{column-count:1;}
 	div.brick4{column-count:2;}
-	div.brick5{column-count:3;}
-	div.brick6{column-count:3;}}
+	div.brick5{column-count:2;}
+	div.brick6{column-count:2;}}
 
 
 /*/////////////////////////////////////////////////////Imagens*/
@@ -438,6 +439,13 @@ figure{
 	margin:auto;
 	padding:10px;
 	width:30%;
+	display:inline-block;
+}
+
+.figure2{
+	margin:auto;
+	padding:10px;
+	width:15%;
 	display:inline-block;
 }
 
@@ -592,6 +600,7 @@ figure{
 	.big-portfolio {width:100%;}
 	
 	figure {width: 100%;}
+	figure.figure2 {width: 100%;}
 	
 	img.marcas-reducoes{width:25%;}
 	
