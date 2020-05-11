@@ -352,12 +352,22 @@ p{
 p.short{
 	text-align:center;}
 
+figcaption {
+	font-family: 'Catamaran';
+	font-weight: 400;
+	font-size:14px;
+	letter-spacing: 1px;
+	color:white;
+	padding: 0px 0px 15px 0px;
+}
+
 @media screen and (max-width:1020px){
 	h1{font-size:65px;}
 	h2{font-size:48px;}
 	h4{font-size:15px}
 	p, p.short{font-size:18px;}
 	a.button{font-size:30px; font-weight:900; letter-spacing: 2px;}
+	figcaption {font-size: 20px;}
 }
 
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
@@ -365,6 +375,10 @@ div{
 	margin:auto;
 	text-align:center;
 	max-width: 90%;}
+
+div.images{
+	max-width:100%;
+}
 
 div.div-100{
 	padding-top: auto;
@@ -420,7 +434,20 @@ div.brick6 {
 
 
 /*/////////////////////////////////////////////////////Imagens*/
+figure{
+	margin:auto;
+	padding:10px;
+	width:30%;
+	display:inline-block;
+}
 
+.img-border{
+	border-style:solid;
+	border-radius: 8px;
+	border-color: rgba(0,0,5,0.80);
+	border-width: 3px;
+}
+/*//////////////////Layout*/
 .home-menuR{
 	float:right;
 	width:80%;
@@ -429,6 +456,12 @@ div.brick6 {
 .home-menuL{
 	float:left;
 	width:80%;
+}
+
+/*//////////////////Marcas*/
+
+.logo-pagina{
+	width:30%;
 }
 
 .marcas{
@@ -443,13 +476,6 @@ div.brick6 {
 	height:150px;
 	margin-left: auto;
     margin-right: auto;}
-
-.img-galery{
-	padding: 3px;
-	height:150px;
-	width:auto;
-	border-radius: 5px;
-}
 
 .img-menu{
 	position: relative;
@@ -473,18 +499,68 @@ div.brick6 {
 	transform: 0.5s ease-out;
 	display: inline;}
 
+/*//////////////////Imagens*/
+.img-galery{
+	padding: 3px;
+	height:150px;
+	width:auto;
+	border-radius: 5px;
+}
+
 .capa{
 	width:200px;
 	float: left;
-	padding:0px 10px 3px 0px;}
-
-.logo {
-	object-fit:contain;}
-
-.logo-pagina{
-	width:30%;
+	padding:0px 10px 3px 0px;
 }
 
+.logo {
+	object-fit:contain;
+}
+
+.item{
+	border-radius:5px;}
+
+.item-image{
+	border-style:solid;
+	border-radius: 8px;
+	border-color: rgba(0,0,5,0.80);
+	border-width: 3px;}
+
+.big-portfolio{
+	width: 30%;
+	background: rgba(0,0,5,0.80);
+	border-radius: 5px;
+	margin: 5px;
+	padding:5px;}
+
+.img-2perline{
+	width:50%;
+	border-style:solid;
+	border-radius: 8px;
+	border-color: rgba(0,0,5,0.80);
+	border-width: 3px;
+}
+
+/*//////////////////lists*/
+.list-unstyled {
+        padding-left: 0;
+        list-style: none;
+    }
+    .list-inline {
+        padding-left: 0;
+        margin-left: -5px;
+        list-style: none;
+    }
+    .list-inline > li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .text-center {
+        text-align: center;
+    }
+
+/*//////////////////Botões*/
 .button{
   background-color: #D60D47; /* Pink */
   color: #FFF;
@@ -506,35 +582,21 @@ div.brick6 {
   color:#FFCC00;
   background-color:  rgba(86,183,224,0.80);}
 
-.item{
-	border-radius:5px;}
-
-.item-image{
-	border-style:solid;
-	border-radius: 8px;
-	border-color: rgba(0,0,5,0.80);
-	border-width: 3px;}
-
-.big-portfolio{
-	width: 30%;
-	background: rgba(0,0,5,0.80);
-	border-radius: 5px;
-	margin: 5px;
-	padding:5px;}
-
-.rodape{
-	background-color: rgba(0,0,5,0.80);
-	border-radius: 5px;
-}
-
 @media only screen and (orientation:portrait){
 	.img-top {width:100%;}
+	
 	.img-bottom {width:100%;}
+	
 	.marcas {width:50%;}
+	
 	.big-portfolio {width:100%;}
+	
+	figure {width: 100%;}
+	
 	img.marcas-reducoes{width:25%;}
+	
 	img.logo-pagina{width:100%;}
-	}
+}
 
 /*//////////////////////////////////////////////////////////Uphover-Effect////////////*/
 .uphover-effect {
