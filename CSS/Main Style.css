@@ -20,6 +20,14 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 /*//////////////////////////////////////////////////////////Responsive Menu*/
 /* header */
 
+.logo-menu{
+	object-fit:contain;
+	width:150px;
+	height:auto;
+	padding:5px;
+	margin:0px auto;
+}
+
 div.header{
 	max-width:100%;
 	padding: 1px;
@@ -30,7 +38,8 @@ div.header{
   background-color: rgba(0,0,0,0.95) ;
   box-shadow: 2px 2px 4px 2px rgba(0,0,0,1);
   position: fixed;
-  width: 98%;
+  padding:0;
+  width: 97%;
   z-index: 3;
 }
 
@@ -145,15 +154,10 @@ div.header{
   top: 0;
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1020px) {	
+.header {background-color: rgba(0,0,0,0.40) ;}
 	
-.header {
-    background-color: rgba(0,0,0,0.40) ;
-  }
-	
-.header li {
-    float: left;
-  }
+.header li {float: left;}
 	
 .header li a {
 	width:100px;
@@ -298,6 +302,10 @@ div.header{
     display: block;
   }
 }
+
+@media only screen and (orientation:portrait){
+	.logo-menu{width:50%;}
+}
 /*//////////////////////////////////////////////////////////Textos*/
 /*Estilos de Texto:
 h1=Título 
@@ -372,9 +380,10 @@ figcaption {
 
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
 div{
+	max-width: 90%;
+	clear: both;
 	margin:auto;
-	text-align:center;
-	max-width: 100%;}
+	text-align:center;}
 
 div.images{
 	max-width:95%;
@@ -384,7 +393,7 @@ div.div-100{
 	padding-top: auto;
 	padding-bottom:auto;
 	text-align:center;
-	max-width:95%;
+	max-width:100%;
 }
 
 div.brick2 {
@@ -522,6 +531,13 @@ figure{
 }
 
 .logo {
+	width:10%;
+	object-fit:contain;
+}
+
+.btn-contato{
+	width:10%;
+	display:inline-block;
 	object-fit:contain;
 }
 
@@ -605,8 +621,107 @@ figure{
 	img.marcas-reducoes{width:25%;}
 	
 	img.logo-pagina{width:100%;}
+	
+	.btn-contato{width:25%}
+}
+/*/////////////////////////////////////////////////////Formulários*/
+form{
+	clear:both;
+	
 }
 
+label{
+	color: white;
+	text-shadow: -2px 2px 5px black;
+	letter-spacing: 0.5px;
+	padding:5px;
+	font-weight:700;}
+	
+.formfield-L{
+	float:left;
+	width:50%;
+}
+
+.formfield-R{
+	display:inline-block;
+	width:50%;
+}
+
+.formfield-text{
+	width:100%;
+}
+
+textarea {
+	clear:both;
+	width:100%;
+	padding:10px;
+	margin:5px 0px 20px 0px;
+	font-family: 'Catamaran';
+	font-size:16px;
+	font-weight: 100;
+	text-align: justify;
+	border-radius:5px;
+}
+
+.formbox{
+	width:95%;
+	padding:10px;
+	margin:5px 0px 20px 0px;
+	text-align: center;
+	border-radius:5px;
+}
+
+@media only screen and (orientation:portrait){
+	.formfield-L, .formfield-R{width:100%;	float:none;
+	}
+}
+
+
+/*//////////////////Botões*/
+.button-form-positive{
+  background-color: #D60D47; /* Pink */
+  color: #FFF;
+  padding: 15px;
+  margin: 10px 0px 10px 0px;
+  width: 50%;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight:700;}
+
+.button-form-positive:link{
+	color: white;}
+
+.button-form-positive:hover {
+  color:#FFCC00;
+  background-color:  rgba(86,183,224,0.80);}
+
+.button-form-negative{
+  background-color: #D60D47; /* Pink */
+  color: #FFF;
+  padding: 15px;
+  margin: 10px 0px 10px 0px;
+  width: 50%;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-weight:700;}
+
+.button-form-negative:link{
+	color: white;}
+
+.button-form-negative:hover {
+  color:#FFCC00;
+  background-color:  rgba(86,183,224,0.80);}
+
+@media only screen and (orientation:portrait){
+	.button-form-positive{width:100%;}
+}
 /*//////////////////////////////////////////////////////////Uphover-Effect////////////*/
 .uphover-effect {
   position: relative;

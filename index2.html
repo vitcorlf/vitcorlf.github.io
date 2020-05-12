@@ -10,8 +10,8 @@
 	
 	<!-- menu -->
 	<header class="header">
-	<a href="/index.html">
-	<img class="logo" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg" height="50xp"></a>
+	<a class="logo-menu" href="/index.html">
+	<img class="logo-menu" alt="VitcorLF - Página Inicial" src="/buttons/VitcorLF.svg"></a>
 	<input class="menu-btn" type="checkbox" id="menu-btn" />
 	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 	<ul class="menu">
@@ -38,15 +38,46 @@
 
 <body><br><br><br><br><br>
 	
-<div class="div-100">	
-	<a href="#"><img class="home-menuR" alt="Marcas" src="/buttons/h-Marcas.svg"></a>
-	<a href="#"><img class="home-menuL" alt="Ilustrações" src="/buttons/h-Ilustrações.svg"></a>
-	<a href="#"><img class="home-menuR" alt="Editorial" src="/buttons/h-Editorial.svg"></a>
-	<a href="#"><img class="home-menuL" alt="Embalagens" src="/buttons/h-Embalagens.svg"></a>
-	<a href="#"><img class="home-menuR" alt="Promocional" src="/buttons/h-Promocional.svg"></a>
-	<a href="#"><img class="home-menuL" alt="Contato" src="/buttons/h-Contato.svg"></a>
-</div>
+<div>
+	<h1>Envie um E-Mail!</h1>
+<form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+ <input type="hidden" name="recipient" value="vitcorlf@outlook.com">
+ <input type="hidden" name="redirect" value="https://vitcorlf.github.io/contato.html"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+ <input type="hidden" name="subject" value="E-mail - VitcorLF">  <!-- Assunto da mensagem -->
+ <input type="hidden" name="email" value="email@doseudominio">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+ 
+	<div class="formfield-R">
+	<label for="name">Nome:</label><br>
+	<input type="text" class="formbox" name="Nome"><br>
+	</div>
 	
+	<div class="formfield-L">
+	<label for="email">E-Mail:</label><br>
+	<input type="text" class="formbox" name="email"><br>
+	</div>
+	
+	<div class="formfield-L">
+	<label for="telefone">Telefone para contato:</label><br>
+	<input type="text" class="formbox" name="telefone"><br>
+	</div>
+	
+	<div class="formfield-R">
+	<label for="website">Website:</label><br>
+	<input type="text" class="formbox" name="website"><br>
+	</div>
+	
+	<div class="formfield-text">
+	<label for="mensagem">Mensagem</label>
+	<textarea name="mensagem">Digite aqui sua mensagem!</textarea><br>
+	</div>
+	
+ <div>
+ <input class="button-form-positive" type="submit" value="Enviar"> 
+</div>
+
+</form>
+	
+</div>
 	<br><br><br><br><br>
 
 </body>
