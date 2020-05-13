@@ -303,7 +303,7 @@ div.header{
 }
 
 @media only screen and (orientation:portrait){
-	.logo-menu{width:30%; height:200px}
+	.logo-menu{width:30%;}
 }
 /*//////////////////////////////////////////////////////////Textos*/
 /*Estilos de Texto:
