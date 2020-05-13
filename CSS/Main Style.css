@@ -399,6 +399,17 @@ div.div-100{
 	max-width:100%;
 }
 
+.div-left{
+	display: inline-block;
+	float:left;
+	max-width:40%;
+}
+
+.div-right{
+	display : inline-block;
+	max-width:40%;
+}
+
 div.brick2 {
 	border-radius: 10px;
 	padding: 10px;
@@ -443,7 +454,8 @@ div.brick6 {
 	div.brick3{column-count:1;}
 	div.brick4{column-count:2;}
 	div.brick5{column-count:2;}
-	div.brick6{column-count:2;}}
+	div.brick6{column-count:2;}
+	.div-left, .div-right{width:100%}}
 
 
 /*/////////////////////////////////////////////////////Imagens*/
@@ -466,6 +478,10 @@ figure{
 	border-radius: 8px;
 	border-color: rgba(0,0,5,0.80);
 	border-width: 3px;
+}
+
+.character-img{
+	height:450px;
 }
 /*//////////////////Layout*/
 .home-menuR{
