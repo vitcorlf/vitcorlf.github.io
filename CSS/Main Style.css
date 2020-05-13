@@ -329,6 +329,7 @@ h1{
 	font-weight: 900}
 
 h2{
+	float:none;
 	text-shadow: -2px 2px 5px black;
 	letter-spacing: 0.5px;
 	color:white;
