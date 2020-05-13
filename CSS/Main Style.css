@@ -28,11 +28,6 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 	margin:7px;
 }
 
-div.header{
-	max-width:100%;
-	padding: 1px;
-}
-
 .header {
   border-radius:5px;  
   background-color: rgba(0,0,0,0.95) ;
@@ -382,16 +377,22 @@ figcaption {
 
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
 div{
+	margin-top:15px;
+	margin-bottom:15px;
 	max-width: 90%;
 	clear: both;
 	margin:auto;
 	text-align:center;}
 
 div.images{
+	margin-top:15px;
+	margin-bottom:15px;
 	max-width:95%;
 }
 
 div.div-100{
+	margin-top:15px;
+	margin-bottom:15px;
 	padding-top: auto;
 	padding-bottom:auto;
 	text-align:center;
