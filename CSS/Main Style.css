@@ -23,8 +23,8 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 /* header */
 
 .logo-menu{
+	object-fit: contain;
 	width:150px;
-	height:auto;
 	margin:7px;
 }
 
@@ -303,7 +303,7 @@ div.header{
   }
 }
 	@media only screen and (orientation:portrait){
-	.logo-menu{width:28%; margin:18px;}
+	.logo-menu{width:30%; margin-top:25px;}
 	.header .menu-icon {padding: 40px 40px;}
 	
 }
