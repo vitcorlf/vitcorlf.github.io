@@ -304,6 +304,8 @@ div.header{
 }
 	@media only screen and (orientation:portrait){
 	.logo-menu{width:28%; margin:18px;}
+	.header .menu-icon {padding: 80px 40px;
+}
 	
 }
 /*//////////////////////////////////////////////////////////Textos*/
