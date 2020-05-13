@@ -303,7 +303,7 @@ div.header{
   }
 }
 	@media only screen and (orientation:portrait){
-	.logo-menu{width:40%; margin:17px;}
+	.logo-menu{width:28%; margin:18px;}
 	
 }
 /*//////////////////////////////////////////////////////////Textos*/
@@ -320,6 +320,7 @@ body {
 	font-family:'Catamaran'}
 
 a{
+	padding:0px;
 	text-decoration: none;
 	color: #FFCC00}
 
