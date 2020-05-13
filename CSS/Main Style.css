@@ -402,12 +402,12 @@ div.div-100{
 .div-left{
 	display: inline-block;
 	float:left;
-	max-width:40%;
+	max-width:50%;
 }
 
 .div-right{
 	display : inline-block;
-	max-width:40%;
+	max-width:50%;
 }
 
 div.brick2 {
@@ -455,9 +455,10 @@ div.brick6 {
 	div.brick4{column-count:2;}
 	div.brick5{column-count:2;}
 	div.brick6{column-count:2;}
-	.div-left, .div-right{width:100%}}
+	.div-left{max-width: 100%; width:100%; float:none}
+	.div-right{max-width:100%; width:100%;}
 
-
+}
 /*/////////////////////////////////////////////////////Imagens*/
 figure{
 	margin:auto;
@@ -480,8 +481,18 @@ figure{
 	border-width: 3px;
 }
 
-.character-img{
-	height:450px;
+.character-imgL{
+	width:30%;
+	float: left;
+}
+
+.character-imgR{
+	width:30%;
+	float:right;
+}
+
+.utaulogo{
+	width:80%;
 }
 /*//////////////////Layout*/
 .home-menuR{
@@ -627,18 +638,16 @@ figure{
 
 @media only screen and (orientation:portrait){
 	.img-top {width:100%;}
-	
 	.img-bottom {width:100%;}
-	
 	.marcas {width:50%;}
-	
 	.big-portfolio {width:100%;}
+	.character-imgR{float:none;}
+	.character-imgL{float:none;}
 	
 	figure {width: 100%;}
 	figure.figure2 {width: 100%;}
 	
 	img.marcas-reducoes{width:25%;}
-	
 	img.logo-pagina{width:100%;}
 	
 	.btn-contato{width:25%}
