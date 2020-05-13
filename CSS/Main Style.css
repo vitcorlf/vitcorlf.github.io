@@ -22,8 +22,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .logo-menu{
 	object-fit:contain;
-	width:150px
-	height:150px
+	width:250px;
 	padding:5px;
 	margin:0px auto;
 }
