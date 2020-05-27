@@ -493,19 +493,21 @@ figure{
 }
 
 .utaulogo{
-	width:80%;
+	width:90%;
 }
 /*//////////////////Layout*/
 .home-menuR{
 	float:right;
-	width:80%;
+	width:50%;
 }
 
 .home-menuL{
 	float:left;
-	width:80%;
+	width:50%;
 }
 
+@media only screen and (orientation:portrait){
+	.home-menuR, .home-menuL{ width:80%}}
 /*//////////////////Marcas*/
 
 .logo-pagina{
