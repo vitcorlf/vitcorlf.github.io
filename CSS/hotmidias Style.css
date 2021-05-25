@@ -30,7 +30,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header {
   border-radius:5px;  
-  background-color: rgba(61,26,18,0.95);
+  background-color: rgba(0,0,0,0.95) ;
   box-shadow: 2px 2px 4px 2px rgba(0,0,0,1);
   position: fixed;
   padding:0;
@@ -58,13 +58,13 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 .header li a:hover,
 .header .menu-btn:hover {
   border-radius:5px;
-  color: white;
-  background-color: rgba(249,165,26,1.0);
+  color: #FFCC00 ;
+  background-color: rgba(86,183,224,0.80);
 }
 
 .header a.active {
 	border-radius:5px;
-	background-color: rgba(249,165,26,1.0); 
+	background-color: rgba(214,13,71,0.80); 
 	color: white;}
 
 .header .logo {
@@ -150,7 +150,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 }
 
 @media (min-width: 1020px) {	
-.header {background-color: rgba(61,26,18,0.95) ;}
+.header {background-color: rgba(0,0,0,0.40) ;}
 	
 .header li {float: left;}
 	
@@ -311,8 +311,7 @@ p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
 body {
-	background: url(/Marcas/Kafo/kafo-icon.svg)no-repeat fixed center;
-	background-color: white;
+	background: url(/Marcas/hotmidias/bg.png)no-repeat fixed center; 
 	background-size: cover;
 	font-family:'Catamaran'}
 
@@ -323,42 +322,38 @@ a{
 
 h1{
 	font-size:40px;
-	text-shadow: -1px 1px 1px #3D1A12;
+	text-shadow: -2px 2px 5px black;
 	letter-spacing: 0.5px;
-	color: #F9A51A; 
+	color: white; 
 	padding:5px;
 	font-weight: 900}
 
 h2{
 	float:none;
-	text-shadow: -1px 1px 1px #BCBCBC;
+	text-shadow: -2px 2px 5px black;
 	letter-spacing: 0.5px;
-	color: #3D1A12;
+	color:white;
 	padding:5px;
 	font-weight:700;}
 
 h4{
 	text-shadow: -2px 2px 5px black;
-	font-size: 13px;
+	font-size:12px;
 	padding:5px 5px 15px 5px;
-	color: black; 
+	color:white; 
 	font-weight: 300;}
 
 p{
-	text-shadow: -1px 1px 1px #BCBCBC;
+	text-shadow: -2px 2px 5px black;
 	font-size: 16px;
 	letter-spacing: 0.5px;
-	color: black; 
+	color: white; 
 	padding: 5px; 
 	font-weight: 400; 
 	text-align: justify;
 	max-width: 1000px;
 	margin-left: auto;
     margin-right: auto;}
-
-span .highlight {color: #F9A51A} .lowlight {color: #3D1A12}
-
-
 
 p.short{
 	text-align:center;}
@@ -368,7 +363,7 @@ figcaption {
 	font-weight: 400;
 	font-size:14px;
 	letter-spacing: 1px;
-	color: black;
+	color:white;
 	padding: 0px 0px 15px 0px;
 }
 
@@ -384,7 +379,7 @@ figcaption {
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
 div{
 	margin-top:15px;
-	margin-bottom:11px;
+	margin-bottom:15px;
 	max-width: 90%;
 	clear: both;
 	margin:auto;
@@ -624,15 +619,13 @@ figure{
 
 /*//////////////////Botões*/
 .button{
-  background-color: #3C1911; /* Pink */
+  background-color: #E44F2C; /* Pink */
   color: #FFF;
   padding: 15px;
   margin: 10px 0px 10px 0px;
   width: 100%;
   transition-duration: 0.4s;
-  border-style: solid;
   border-radius: 8px;
-  border-color: #F9A51A;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -643,8 +636,8 @@ figure{
 	color: white;}
 
 .button:hover {
-  color:#3C1911;
-  background-color: #F9A51A;}
+  color: #FFFFFF;
+  background-color:  #E02F32;}
 
 @media only screen and (orientation:portrait){
 	.img-top {width:100%;}
