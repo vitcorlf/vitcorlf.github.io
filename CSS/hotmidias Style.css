@@ -30,7 +30,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header {
   border-radius:5px;  
-  background-color: rgba(0,0,0,0.95) ;
+  background-color: rgba(228,79,44,0.70) ;
   box-shadow: 2px 2px 4px 2px rgba(0,0,0,1);
   position: fixed;
   padding:0;
@@ -47,7 +47,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header li a {
   font-size:50px;
-  color: #FFCC00;
+  color: white;
   font-weight:700;
   display: block;
   text-align: center;
@@ -58,13 +58,13 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 .header li a:hover,
 .header .menu-btn:hover {
   border-radius:5px;
-  color: #FFCC00 ;
-  background-color: rgba(86,183,224,0.80);
+  color: rgba(228,79,44,1.00) ;
+  background-color: rgba(31,31,31,0.80);
 }
 
 .header a.active {
 	border-radius:5px;
-	background-color: rgba(214,13,71,0.80); 
+	background-color: rgba(31,31,31,0.80); 
 	color: white;}
 
 .header .logo {
@@ -150,7 +150,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 }
 
 @media (min-width: 1020px) {	
-.header {background-color: rgba(0,0,0,0.40) ;}
+.header {background-color: rgba(228,79,44,1.00) ;}
 	
 .header li {float: left;}
 	
