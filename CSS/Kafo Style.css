@@ -11,11 +11,11 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 ::-webkit-scrollbar {
     width: 8px;
 	border-radius:10px;
-    background: #FFCC00;
+    background: #F9A51A;
 }
 ::-webkit-scrollbar-thumb {
 	border-radius:10px;
-    background: #FFCC00;
+    background: #F9A51A;
 }
 /*/////Scrolbar/////*/
 
@@ -311,7 +311,7 @@ p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
 body {
-	background: url(/Marcas/Kafo/kafo-icon.svg)no-repeat fixed center;
+	background: url(/Marcas/Kafo/kafo-bg.svg)no-repeat fixed center;
 	background-color: white;
 	background-size: cover;
 	font-family:'Catamaran'}
@@ -338,7 +338,7 @@ h2{
 	font-weight:700;}
 
 h4{
-	text-shadow: -2px 2px 5px black;
+	text-shadow: -2px 2px 6px black;
 	font-size: 13px;
 	padding:5px 5px 15px 5px;
 	color: black; 
