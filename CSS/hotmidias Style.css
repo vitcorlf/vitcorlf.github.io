@@ -30,7 +30,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header {
   border-radius:5px;  
-  background-color: rgba(228,79,44,0.70) ;
+  background-color: rgba(228,79,44,0.80) ;
   box-shadow: 2px 2px 4px 2px rgba(0,0,0,1);
   position: fixed;
   padding:0;
@@ -150,7 +150,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 }
 
 @media (min-width: 1020px) {	
-.header {background-color: rgba(228,79,44,0.70) ;}
+.header {background-color: rgba(228,79,44,0.80) ;}
 	
 .header li {float: left;}
 	
