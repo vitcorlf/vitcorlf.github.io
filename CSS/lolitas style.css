@@ -11,11 +11,11 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 ::-webkit-scrollbar {
     width: 8px;
 	border-radius:10px;
-    background: #FFCC00;
+    background: rgba(251,88,158,1);
 }
 ::-webkit-scrollbar-thumb {
 	border-radius:10px;
-    background: #FFCC00;
+    background: rgba(251,88,158,1);
 }
 /*/////Scrolbar/////*/
 

@@ -58,13 +58,13 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 .header li a:hover,
 .header .menu-btn:hover {
   border-radius:5px;
-  color: rgba(228,79,44,1.00) ;
-  background-color: rgba(31,31,31,0.80);
+  color: #FFF ;
+  background-color: #01121C;
 }
 
 .header a.active {
 	border-radius:5px;
-	background-color: rgba(31,31,31,0.80); 
+	background-color: #01121C; 
 	color: white;}
 
 .header .logo {
