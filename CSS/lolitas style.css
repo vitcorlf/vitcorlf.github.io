@@ -30,7 +30,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header {
   border-radius:5px;  
-  background-color: rgba(0,0,0,0.95) ;
+  background-color: rgba(251,88,158,0.80) ;
   box-shadow: 2px 2px 4px 2px rgba(0,0,0,1);
   position: fixed;
   padding:0;
@@ -47,7 +47,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header li a {
   font-size:50px;
-  color: #FFCC00;
+  color: #FFF;
   font-weight:700;
   display: block;
   text-align: center;
@@ -58,14 +58,14 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 .header li a:hover,
 .header .menu-btn:hover {
   border-radius:5px;
-  color: #FFCC00 ;
-  background-color: rgba(86,183,224,0.80);
+  color: rgba(251,88,158,1.00) ;
+  background-color: #fff;
 }
 
 .header a.active {
 	border-radius:5px;
-	background-color: rgba(214,13,71,0.80); 
-	color: white;}
+	background-color: #fff; 
+	color: rgba(251,88,158,1.00);}
 
 .header .logo {
   display: block;
@@ -95,7 +95,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 }
 
 .header .menu-icon .navicon {
-  background: #FFCC00;
+  background: #FFF;
   display: block;
   width: 60px;
   height: 5px;
@@ -105,7 +105,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #FFCC00;
+  background: #FFF;
   content: '';
   display: block;
   height: 100%;
@@ -150,7 +150,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 }
 
 @media (min-width: 1020px) {	
-.header {background-color: rgba(0,0,0,0.40) ;}
+.header {background-color: rgba(251,88,158,0.8) ;}
 	
 .header li {float: left;}
 	
@@ -311,7 +311,7 @@ p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
 body {
-	background: url(/buttons/BG.svg)no-repeat fixed center; 
+	background: url(/Marcas/Lolitas/bg.png)no-repeat fixed center; 
 	background-size: cover;
 	background-color: rgba(0,0,0,1.00);
 	font-family:'Catamaran'}
@@ -620,7 +620,7 @@ figure{
 
 /*//////////////////Botões*/
 .button{
-  background-color: #D60D47; /* Pink */
+  background-color: rgba(251,88,158,1.00); /* Pink */
   color: #FFF;
   padding: 15px;
   margin: 10px 0px 10px 0px;
@@ -637,8 +637,8 @@ figure{
 	color: white;}
 
 .button:hover {
-  color:#FFCC00;
-  background-color:  rgba(86,183,224,0.80);}
+  color: rgba(251,88,158,1.00);
+  background-color: rgba(255,255,255,1.00);}
 
 @media only screen and (orientation:portrait){
 	.img-top {width:100%;}
