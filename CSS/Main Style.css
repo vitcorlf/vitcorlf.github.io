@@ -507,6 +507,11 @@ figure{
 	width:50%;
 }
 
+.home-menuC{
+	width:50%;
+	text-align: center;
+}
+
 @media only screen and (orientation:portrait){
 	.home-menuR, .home-menuL{ width:80%}}
 /*//////////////////Marcas*/
