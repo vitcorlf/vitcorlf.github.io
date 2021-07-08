@@ -95,7 +95,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 }
 
 .header .menu-icon .navicon {
-  background: #FFCC00;
+  background: #9146FF;
   display: block;
   width: 60px;
   height: 5px;
@@ -105,7 +105,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #FFCC00;
+  background: #9146FF;
   content: '';
   display: block;
   height: 100%;
