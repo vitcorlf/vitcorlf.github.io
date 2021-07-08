@@ -1,0 +1,2 @@
+Imput:
+Text | Number | Date | Password | 
