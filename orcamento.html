@@ -39,72 +39,55 @@
 <body><br><br><br><br><br>
 	
 <div>
-	<h1>Formulário de Orçamento</h1>
 <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+<h1>Formulário de Orçamento</h1>
  <input type="hidden" name="recipient" value="vitcorlf@outlook.com">
  <input type="hidden" name="redirect" value="https://vitcorlf.github.io/contato.html"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
  <input type="hidden" name="subject" value="E-mail - VitcorLF">  <!-- Assunto da mensagem -->
  <input type="hidden" name="email" value="email@doseudominio">   <!-- Deve ser uma conta de email ativa em seu domínio -->
  
-	<div>
 	<h2>Informações de Contato</h2>
-	</div>
 	
-	<div class="formfield-L">
-	<label for="name">Nome:</label><br>
-	<input type="text" class="formbox" name="Nome"><br>
-	</div>
 	
-	<div class="formfield-R">
-	<label for="email">E-Mail:</label><br>
-	<input type="text" class="formbox" name="email"><br>
-	</div>
+	<label>Nome:<br>
+	<input type="text" class="formbox" placeholder="Seu nome completo" name="Nome"></label><br>
+
+	<label>E-Mail:<br>
+	<input type="text" class="formbox" placeholder="seuemail@provedor.com" name="email"></label><br>
 	
-	<div class="formfield-L">
-	<label for="telefone">Telefone para contato:</label><br>
-	<input type="tel" class="formbox" name="telefone"><br>
-	</div>
+	<label>Telefone para contato:<br>
+	<input type="tel" class="formbox" placeholder="Telefone" name="telefone"></label><br>
 	
-	<div class="formfield-R">
-	<label for="website">Website:</label><br>
-	<input type="url" class="formbox" name="website"><br>
-	</div>
+	<label> Website:<br>
+	<input type="url" class="formbox" placeholder="Website" name="website"></label><br>
+
 	
 	<h2>Informações do Projeto</h2>
 	
-	<div class="formfield-full">
-	<label for="telefone">Data de entrega:</label><br>
-	<input type="date" class="formbox" name="telefone"><br>
-	</div>
+	<label>Data de entrega:<br>
+	<input type="date" class="formbox" name="Data de Entrega"></label><br>
 	
-	
-	
-	<div class="formfield-full">
-	<label for="telefone">Peça:</label><br>
-	<select type="select" class="formbox" name="telefone">
+	<label for="telefone">Tipo de peça:<br>
+	<select type="select" class="formbox" name="peça">
 	<option value="Identidade Visual">Identidade Visual</option>
 	<option value="Ilustração">Ilustração</option>
 	<option value="Editoração">Editoração</option>
 	<option value="Promocional">Promocional</option>
 	<option value="Embalagem">Embalagem</option>
-	</select><br>
-	</div>
+	</select></label><br>
 	
+	<label>Especificações:</label>
+	<textarea class="formfield" name="mensagem">Digite aqui suas observações.</textarea><br>
 	
+	<label>Referências:<br>
+	<input type="file" class="formbox-file"><br><input type="file" class="formbox-file"><br><input type="file" class="formbox-file"></label>
 	
-	
-	<div class="formfield-text">
-	<label for="mensagem">Especificações</label>
-	<textarea name="mensagem">Digite aqui suas observações.</textarea><br>
-	</div>
-	
- <div>
  <input class="button-form-positive" type="submit" value="Enviar"> 
 </div>
-
-</form>
 	
+</form>
 </div>
+	
 	<br><br><br><br><br>
 
 </body>
