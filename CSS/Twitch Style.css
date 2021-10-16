@@ -524,6 +524,7 @@ figure.emotes {
 	margin:auto;
 	width:100%;
 	border-radius: 20%;
+	padding:10px;
 }
 .img-emote:hover{
 	background-color: #9146FF;
