@@ -311,6 +311,7 @@ p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
 body {
+	width: 99%;
 	background: url(/buttons/BG.svg)no-repeat fixed center; 
 	background-size: cover;
 	background-color: rgba(0,0,0,1.00);
@@ -400,11 +401,10 @@ div.images{
 }
 
 div.border{
-	max-width:100%;
+	width:100%;
 	border-bottom: 5px;
 	border-bottom-style: solid;
 	border-color: #9146FF;
-	clear: both;
 	margin:auto;
 }
 
@@ -678,17 +678,19 @@ figure.emotes {
     }
 
 /*//////////////////Botões*/
+
 .button{
-  background-color: #9146FF; /* Pink */
+  background-color: #9146FF; /* Purple */
   color: #FFF;
   padding: 15px;
   margin: 10px 0px 10px 0px;
-  width: 100%;
   transition-duration: 0.4s;
   border-radius: 8px;
+  width: 100%;
   text-align: center;
   text-decoration: none;
-  display: block;
+  float: left;
+  display: inline-block;
   font-size: 16px;
   font-weight:700;
 }
