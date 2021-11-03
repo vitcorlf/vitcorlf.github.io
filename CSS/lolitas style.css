@@ -311,7 +311,7 @@ p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
 body {
-	background: url(/marcas/Lolitas/bg.png)no-repeat fixed center; 
+	background: url(/Marcas/Lolitas/bg.png)no-repeat fixed center; 
 	background-size: cover;
 	background-color: rgba(0,0,0,1.00);
 	font-family:'Catamaran'}
