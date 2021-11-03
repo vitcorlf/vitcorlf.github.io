@@ -311,7 +311,7 @@ p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
 body {
-	background: url(/Marcas/Kafo/kafo-bg.svg)no-repeat fixed center;
+	background: url(/marcas/kafo/kafo-bg.svg)no-repeat fixed center;
 	background-color: white;
 	background-size: cover;
 	font-family:'Catamaran'}
