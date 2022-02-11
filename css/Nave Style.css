@@ -311,10 +311,15 @@ p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
 body {
-	background: url(/marcas/nave/nave-bg.png)no-repeat fixed center; 
 	background-size: cover;
 	background-color: rgba(0,0,0,1.00);
 	font-family:'Catamaran'}
+
+.background-video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
 
 a{
 	padding:0px;
@@ -462,6 +467,20 @@ div.brick6 {
 
 }
 /*/////////////////////////////////////////////////////Imagens*/
+
+.bg_video{
+			position: fixed; 
+			right: 0; 
+			bottom: 0;
+			min-width: 100%; 
+			min-height: 100%;
+			width: auto; 
+			height: auto; 
+			z-index: -1000;
+			background: url(images/torre.jpg) no-repeat;
+			background-size: cover; 
+		}
+
 figure{
 	margin:auto;
 	padding:5px;
