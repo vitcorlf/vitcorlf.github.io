@@ -311,7 +311,7 @@ p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
 body {
-	background: url("/editorial/qualquer-negocio/illust-BG.jpg")no-repeat fixed center; 
+	background: url("/editorial/qualquer-negocio/illust-BG-2.jpg")no-repeat fixed center; 
 	background-size: cover;
 	background-color: rgba(0,0,0,1.00);
 	font-family:'Catamaran'}
@@ -347,7 +347,7 @@ h4{
 p{
 	font-size: 16px;
 	letter-spacing: 0.5px;
-	color: black; 
+	color: white; 
 	padding: 5px; 
 	font-weight: 400; 
 	text-align: justify;
