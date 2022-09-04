@@ -392,7 +392,8 @@ div{
 	max-width: 90%;
 	clear: both;
 	margin:auto;
-	text-align:center;}
+	text-align:center;
+}
 
 div.images{
 	margin-top:15px;
@@ -490,7 +491,6 @@ figure{
 	margin:auto;
 	padding:5px;
 	width:60%;
-	display:inline-block;
 }
 
 figure.emotes {
