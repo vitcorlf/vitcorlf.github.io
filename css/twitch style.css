@@ -487,14 +487,14 @@ div.brick6 {
 }
 /*/////////////////////////////////////////////////////Imagens*/
 figure{
-	clear: both;
+	margin:auto;
+	padding:5px;
+	width:60%;
+	display:inline-block;
 }
 
 figure.emotes {
-	width:30%;
-	text-align: center;
-	display: inline-block;
-	float:left;
+	clear:both;
 }
 
 .figure2{
@@ -512,10 +512,7 @@ figure.emotes {
 }
 
 .emotes{
-	display: table;
 	margin:auto;
-	padding:5px;
-	width:20%;
 }
 
 
