@@ -497,6 +497,11 @@ figure.emotes {
 	clear:both;
 }
 
+figure.buttons {
+	clear:both;
+	height:auto;
+}
+
 .figure2{
 	margin:auto;
 	padding:10px;
@@ -610,6 +615,13 @@ figure.emotes {
 .img-galery{
 	padding: 3px;
 	height:150px;
+	width:auto;
+	border-radius: 5px;
+}
+
+.s-img-galery{
+	padding: 3px;
+	height:100px;
 	width:auto;
 	border-radius: 5px;
 }
