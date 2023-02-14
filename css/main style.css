@@ -524,9 +524,11 @@ figure.firgure-6{
 }
 
 .icon {
-	width: 15px;
+	width: 20px;
+	text-align: center;
 	
 }
+
 /*//////////////////Layout*/
 .home-menuR{
 	float:right;
