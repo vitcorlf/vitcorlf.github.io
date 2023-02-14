@@ -522,6 +522,11 @@ figure.firgure-6{
 .utaulogo{
 	width:90%;
 }
+
+.icon {
+	width: 15px;
+	
+}
 /*//////////////////Layout*/
 .home-menuR{
 	float:right;
