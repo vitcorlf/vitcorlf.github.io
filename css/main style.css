@@ -359,6 +359,15 @@ p{
 p.short{
 	text-align:center;}
 
+table.streamers{
+	width:100%;
+	}
+
+table, th, td.streamers{
+	border:1px solid white;
+	color: aliceblue;
+}
+
 .tabela{
 	text-color:white;
 	text-align:center;
