@@ -444,10 +444,11 @@ div.brick3 {
 	column-fill:auto;}
 
 div.brick4 {
+	display:block;
 	padding:10px;
 	column-count: 4;
-	column-width: 25%;
-	column-gap:20px;
+	column-width: 20%;
+	column-gap: 15px;
 	column-fill:auto;}
 
 div.brick5 {

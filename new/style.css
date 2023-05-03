@@ -1,0 +1,166 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,500,700,900&display=swap');
+
+/* Body styles */
+body {
+  font-family: Catamaran, 'Catamaran Black', 'Catamaran ExtraBold', 'Catamaran ExtraLight', 'Catamaran Light', 'Catamaran Medium', 'Catamaran SemiBold', 'Catamaran Thin';
+  background: url(/buttons/BG.svg)no-repeat fixed center;
+  background-size: cover;
+  background-color: #2D2D2D;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page container styles */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #000000;
+  font-size: 30px;
+  margin: 0;
+}
+
+.header li, a {
+	color:#FFFFFF;
+}
+.header li, a:hover{
+  border-radius:5px;
+  color: #FFFFFF ;
+  background-color: #56B7E0;
+}
+
+.menu-item {
+  display: inline-flex;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #333;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menu-item:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 25%;
+}
+
+/* Content styles */
+.content {
+  width: 70%;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+
+/* Top horizontal menu styles */
+.top-menu {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.top-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+/* Responsive styles for top menu */
+@media (max-width: 768px) {
+  .top-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    overflow: hidden;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .top-menu.show {
+    transform: translateX(0);
+  }
+
+  .top-menu a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .menu-icon {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: block;
+  }
+}
+
+
+/* Lightbox gallery styles */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.gallery-item {
+  margin-bottom: 30px;
+  width: calc(33.33% - 10px);
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fancybox-caption {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
