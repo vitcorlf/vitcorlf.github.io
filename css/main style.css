@@ -482,6 +482,23 @@ div.brick6 {
 
 
 /*/////////////////////////////////////////////////////Imagens*/
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery img {
+  width: 30%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
 figure{
 	margin:auto;
 	padding:5px;

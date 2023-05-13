@@ -612,6 +612,22 @@ figure.buttons {
 	display: inline;}
 
 /*//////////////////Imagens*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery img {
+  width: 30%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
 .img-galery{
 	padding: 3px;
 	height:150px;
