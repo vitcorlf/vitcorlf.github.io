@@ -493,13 +493,13 @@ div.brick6 {
   justify-content: space-between;
 }
 
-.gallery img, a {
+.gallery-img, .gallery-a {
   width: 30%;
   margin-bottom: 20px;
   transition: transform 0.3s ease-in-out;
 }
 
-.gallery img, a:hover {
+.gallery-img, .gallery-a:hover {
   transform: scale(1.1);
 }
 

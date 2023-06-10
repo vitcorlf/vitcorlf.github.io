@@ -143,24 +143,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 80px;
 }
 
-.gallery-item {
-  margin-bottom: 30px;
-  width: calc(33.33% - 10px);
+.gallery a {
+  width: 30%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
 }
 
-.gallery-item img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.fancybox-caption {
-  color: #fff;
-  text-align: center;
-  font-size: 18px;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.8);
+.gallery a:hover {
+  transform: scale(1.1);
 }

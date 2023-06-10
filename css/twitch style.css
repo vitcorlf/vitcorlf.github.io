@@ -618,13 +618,13 @@ figure.buttons {
   justify-content: space-between;
 }
 
-.gallery a {
+.gallery-img, .gallery-a {
   width: 30%;
   margin-bottom: 20px;
   transition: transform 0.3s ease-in-out;
 }
 
-.gallery a:hover {
+.gallery-img, .gallery-a:hover {
   transform: scale(1.1);
 }
 
