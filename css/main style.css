@@ -4,7 +4,7 @@ Cores:
 Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #08080F | Separador #1E1E27
 */
 
-/*//////////////////////////////////////////////////////////Scrollbar*/
+/*//////////////////////////////////////////////////////////Scrollbar/Selection*/
 ::-webkit-scrollbar-track {
     background-color: #1E1E27;
 }
@@ -17,7 +17,11 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 	border-radius:10px;
     background: #FFCC00;
 }
-/*/////Scrolbar/////*/
+::selection {
+  background-color: gray;
+  color: white;
+}
+/*/////Scrolbar/Selection/////*/
 
 /*//////////////////////////////////////////////////////////Responsive Menu*/
 /* header */
@@ -489,13 +493,13 @@ div.brick6 {
   justify-content: space-between;
 }
 
-.gallery img {
+.gallery img, a {
   width: 30%;
   margin-bottom: 20px;
   transition: transform 0.3s ease-in-out;
 }
 
-.gallery img:hover {
+.gallery img, a:hover {
   transform: scale(1.1);
 }
 
