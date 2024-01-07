@@ -584,13 +584,14 @@ figure.firgure-6{
 }
 
 /*//////////////////Layout*/
-.home-menuR{
-	float:right;
+.home-menuL{
+	clear:left;
+	float:left;
 	width:50%;
 }
 
-.home-menuL{
-	float:left;
+.home-menuR{
+	float:right;
 	width:50%;
 }
 
@@ -792,6 +793,8 @@ figure.firgure-6{
 	.big-portfolio {width:100%;}
 	.character-imgR{float:none;}
 	.character-imgL{float:none;}
+	.home-menuL{float:none;}
+	.home-menuR{float:none;}
 	
 	figure {width: 100%;}
 	figure.figure2 {width: 100%;}
