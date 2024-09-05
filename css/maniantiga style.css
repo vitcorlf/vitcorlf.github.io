@@ -4,7 +4,7 @@ Cores:
 Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #08080F | Separador #1E1E27
 */
 
-/*//////////////////////////////////////////////////////////Scrollbar/Selection*/
+/*//////////////////////////////////////////////////////////Scrollbar*/
 ::-webkit-scrollbar-track {
     background-color: #1E1E27;
 }
@@ -17,11 +17,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 	border-radius:10px;
     background: #FFCC00;
 }
-::selection {
-  background-color: gray;
-  color: white;
-}
-/*/////Scrolbar/Selection/////*/
+/*/////Scrolbar/////*/
 
 /*//////////////////////////////////////////////////////////Responsive Menu*/
 /* header */
@@ -34,13 +30,14 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header {
   border-radius:5px;  
-  background-color: rgba(0,0,0,0.95) ;
+  background-color: rgba(41,18,2,1.00);
   box-shadow: 2px 2px 4px 2px rgba(0,0,0,1);
   position: fixed;
   padding:0;
   width: 97%;
   z-index: 3;
 }
+
 
 .header ul {
   margin: 0;
@@ -51,7 +48,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 
 .header li a {
   font-size:50px;
-  color: #FFCC00;
+  color: rgba(103,63,36,1.00);
   font-weight:700;
   display: block;
   text-align: center;
@@ -62,13 +59,13 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
 .header li a:hover,
 .header .menu-btn:hover {
   border-radius:5px;
-  color: #FFFFFF ;
-  background-color: #56B7E0;
+  color: white;
+  background-color: rgba(103,63,36,1.00);
 }
 
 .header a.active {
 	border-radius:5px;
-	background-color: rgba(214,13,71,0.80); 
+	background-color: rgba(103,63,36,1.00); 
 	color: white;}
 
 .header .logo {
@@ -153,8 +150,7 @@ Azul #56B7E0 | Amarelo #FFCC00 | Rosa #D60D47 | Background #000005 | Menus #0808
   top: 0;
 }
 
-@media (min-width: 1020px) {	
-.header {background-color: rgba(0,0,0,0.40) ;}
+@media (min-width: 1020px) {
 	
 .header li {float: left;}
 	
@@ -315,7 +311,7 @@ p=Parágrafos
 
 Pesos da Fonte: 300=Light, 400=Regular, 500=Medium, 700=Bold, 900=Black*/
 body {
-	background: url(/buttons/BG.svg)no-repeat fixed center; 
+	background: url("/marcas/maniantiga/maniantigabg.png")no-repeat fixed center; 
 	background-size: cover;
 	background-color: rgba(0,0,0,1.00);
 	font-family:'Catamaran'}
@@ -363,24 +359,13 @@ p{
 p.short{
 	text-align:center;}
 
-.table-streamers{
-	width:100%;
-}
-
-.tabela{
-	text-color:white;
-	text-align:center;
-}
-
 figcaption {
-	text-align: center;
 	font-family: 'Catamaran';
-	font-style:italic;
-	font-weight: 500;
-	font-size:13px;
+	font-weight: 400;
+	font-size:14px;
 	letter-spacing: 1px;
 	color:white;
-	padding: 0px;
+	padding: 0px 0px 15px 0px;
 }
 
 @media screen and (max-width:1020px){
@@ -393,7 +378,6 @@ figcaption {
 }
 
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
-
 div{
 	margin-top:15px;
 	margin-bottom:15px;
@@ -445,11 +429,10 @@ div.brick3 {
 	column-fill:auto;}
 
 div.brick4 {
-	display:block;
 	padding:10px;
 	column-count: 4;
-	column-width: 20%;
-	column-gap: 15px;
+	column-width: 25%;
+	column-gap:20px;
 	column-fill:auto;}
 
 div.brick5 {
@@ -466,9 +449,6 @@ div.brick6 {
 	column-gap:20px;
 	column-fill:auto;}
 
-table { border-collapse: collapse; border-spacing: 0;
-}
-
 /*/////////////*/
 @media only screen and (orientation:portrait) {
 	div {width:99%;}
@@ -481,87 +461,12 @@ table { border-collapse: collapse; border-spacing: 0;
 	.div-right{max-width:100%; width:100%;}
 
 }
-
-/*/////////////////////////////////////////////////////Videos*/
-
-
 /*/////////////////////////////////////////////////////Imagens*/
-
-/*///////Sociais*/
-.img-social{
-	position: relative;
-	display: inline-block;}
-
-.img-social .img-top {
-	height:150px;
-	transition: 0.4s;
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 2;}
-
-.img-social .img-bottom{
-	height:150px;
-	opacity:0.4;
-}
-
-.img-social:hover .img-top {
-	transform: 0.5s ease-out;
-	display: inline;}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.gallery-img, .gallery-a {
-  width: 30%;
-  margin-bottom: 20px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.gallery-img, .gallery-a:hover {
-  transform: scale(1.1);
-}
-
-.s-img-galery{
-	padding: 3px;
-	height:100px;
-	width:auto;
-	border-radius: 5px;
-}
-
-figure.emotes {
-	clear:both;
-}
-
 figure{
 	margin:auto;
 	padding:5px;
-	width: 100%;
+	width:30%;
 	display:inline-block;
-}
-
-figure.firgure-6{
-	margin:5px;
-	padding:10px;
-	width: 16,6%;
-	display: inline-block;
-}
-
-.img-emote{
-	display: inline-block;
-	margin: 20px;
-	width:90%;
-	border-radius: 15%;
-	padding: 5px;
-}
-
-.img-emote:hover{
-	background-color: rgba(255, 255, 255, 0.8);
-	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
 }
 
 .figure2{
@@ -591,87 +496,19 @@ figure.firgure-6{
 .utaulogo{
 	width:90%;
 }
-
-.icon {
-	width: 20px;
-	text-align: center;
-	
-}
-
-.emote-table{
-	display: table;
-	text-align: center;
-	width:100%;
-	border-spacing: 0px;
-	border-collapse: collapse;
-}
-
 /*//////////////////Layout*/
-.home-menuL{
-	clear:left;
-	float:left;
-	width:50%;
-}
-
 .home-menuR{
 	float:right;
 	width:50%;
 }
 
-.home-menuC{
+.home-menuL{
+	float:left;
 	width:50%;
-	text-align: center;
 }
 
 @media only screen and (orientation:portrait){
 	.home-menuR, .home-menuL{ width:80%}}
-
-/*//////////////////Galeria Lightbox*/
-
-.lb-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.lb-gallery img {
-  width: 30%;
-  margin-bottom: 20px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.lb-gallery img:hover {
-  transform: scale(1.1);
-}
-
-/* Lightbox styles */
-
-#lightbox {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 9999;
-  text-align: center;
-}
-
-#lightbox-image {
-  max-width: 90%;
-  max-height: 90%;
-  margin-top: 10vh;
-}
-
-.close {
-  position: absolute;
-  top: 15px;
-  right: 25px;
-  font-size: 30px;
-  color: #fff;
-  cursor: pointer;
-}
 /*//////////////////Marcas*/
 
 .logo-pagina{
@@ -783,7 +620,7 @@ figure.firgure-6{
 
 /*//////////////////Botões*/
 .button{
-  background-color: #D60D47; /* Pink */
+  background-color: rgba(103,63,36,1.00); /* Pink */
   color: #FFF;
   padding: 15px;
   margin: 10px 0px 10px 0px;
@@ -801,13 +638,7 @@ figure.firgure-6{
 
 .button:hover {
   color:#FFCC00;
-  background-color:  rgba(86,183,224,0.80);}
-
-.button-emotes{
-	float: right;
-	width:50%;
-}
-
+  background-color:  rgba(100,63,43,1.00);}
 
 @media only screen and (orientation:portrait){
 	.img-top {width:100%;}
@@ -816,8 +647,6 @@ figure.firgure-6{
 	.big-portfolio {width:100%;}
 	.character-imgR{float:none;}
 	.character-imgL{float:none;}
-	.home-menuL{float:none;}
-	.home-menuR{float:none;}
 	
 	figure {width: 100%;}
 	figure.figure2 {width: 100%;}
@@ -828,18 +657,40 @@ figure.firgure-6{
 	.btn-contato{width:25%}
 }
 /*/////////////////////////////////////////////////////Formulários*/
+form{
+	clear:both;
+	
+}
 
 label{
 	color: white;
-	text-align: center;
 	text-shadow: -2px 2px 5px black;
 	letter-spacing: 0.5px;
+	padding:5px;
 	font-weight:700;}
 	
 option{
 	width:100%;
 	font-family: 'Catamaran';
+}
+
+.formfield-full{
 	text-align: center;
+	width:100%;
+}
+
+.formfield-L{
+	float:left;
+	width:50%;
+}
+
+.formfield-R{
+	display:inline-block;
+	width:50%;
+}
+
+.formfield-text{
+	width:100%;
 }
 
 textarea {
@@ -854,49 +705,17 @@ textarea {
 	border-radius:5px;
 }
 
-.formbox, .formbox-L, .formbox-R, .formbox-full{
+.formbox{
 	font-family: 'Catamaran';
-	clear:both;
 	text-align: center;
-	font-size:16px;
+	width:95%;
 	padding:10px;
 	margin:5px 0px 20px 0px;
 	border-radius:5px;
 }
 
-.formbox{
-	width:100%
-}
-
-.formbox-full{
-	width:100%;
-}
-
-.formbox-L{
-	clear:both;
-	float:left;
-	width:50%;
-}
-
-.formbox-R{
-	display:inline-block;
-	width:50%;
-}
-
-.formbox-text{
-	width:100%;
-}
-
-.formbox-file{
-	box-sizing: border-box;
-	clear:both;
-	float:left;
-	align-content: center;
-	width:25%;	
-}
-
 @media only screen and (orientation:portrait){
-	.formfield-L, .formfield-R{width:95%;	float:none;
+	.formfield-L, .formfield-R{width:100%;	float:none;
 	}
 }
 
@@ -907,7 +726,7 @@ textarea {
   color: #FFF;
   padding: 15px;
   margin: 10px 0px 10px 0px;
-  width: 100%;
+  width: 50%;
   transition-duration: 0.4s;
   border-radius: 8px;
   text-align: center;
