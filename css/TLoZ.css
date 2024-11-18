@@ -330,7 +330,7 @@ h1{
 	text-shadow: -2px 2px 5px black;
 	letter-spacing: 0.5px;
 	color: white; 
-	padding:5px;
+	padding: 5px;
 	font-weight: 900}
 
 h2{
@@ -338,7 +338,7 @@ h2{
 	text-shadow: -2px 2px 5px black;
 	letter-spacing: 0.5px;
 	color:white;
-	padding:5px;
+	padding-left:25px;
 	font-weight:700;}
 
 h4{
@@ -402,6 +402,13 @@ div{
 	margin:auto;
 	text-align:center;}
 
+div.box{
+	display: flow-root;
+	margin:50px;
+	border-radius: 20px;
+	background-color: rgba(252,251,230,0.80);
+	
+}
 div.images{
 	margin-top:15px;
 	margin-bottom:15px;
@@ -483,6 +490,11 @@ table { border-collapse: collapse; border-spacing: 0;
 }
 
 /*/////////////////////////////////////////////////////Videos*/
+video.box {
+	margin: 30px;
+	width: auto;
+	float: left;
+}
 
 
 /*/////////////////////////////////////////////////////Imagens*/
@@ -818,6 +830,8 @@ figure.firgure-6{
 	.character-imgL{float:none;}
 	.home-menuL{float:none;}
 	.home-menuR{float:none;}
+	
+	video.box{float:none; width:auto;}
 	
 	figure {width: 100%;}
 	figure.figure2 {width: 100%;}
