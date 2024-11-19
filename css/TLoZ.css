@@ -335,11 +335,11 @@ h1{
 
 h2{
 	float:none;
-	text-shadow: -2px 2px 5px black;
+	text-shadow: none;
 	letter-spacing: 0.5px;
-	color:white;
+	color: rgba(151,124,62,1.00);
 	padding-left:25px;
-	font-weight:700;}
+	font-weight:800;}
 
 h4{
 	text-shadow: -2px 2px 5px black;
@@ -349,16 +349,10 @@ h4{
 	font-weight: 300;}
 
 p{
-	text-shadow: -2px 2px 5px black;
-	font-size: 16px;
-	letter-spacing: 0.5px;
-	color: white; 
-	padding: 5px; 
+	text-shadow: none;
+	color: rgba(154,131,77,1.00); 
 	font-weight: 400; 
-	text-align: justify;
-	max-width: 1000px;
-	margin-left: auto;
-    margin-right: auto;}
+	max-width: 1000px;}
 
 p.short{
 	text-align:center;}
@@ -379,7 +373,7 @@ figcaption {
 	font-weight: 500;
 	font-size:13px;
 	letter-spacing: 1px;
-	color:white;
+	color:black;
 	padding: 0px;
 }
 
@@ -394,19 +388,8 @@ figcaption {
 
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
 
-div{
-	margin-top:15px;
-	margin-bottom:15px;
-	max-width: 90%;
-	clear: both;
-	margin:auto;
-	text-align:center;}
-
 div.box{
-	display: flow-root;
-	margin:50px;
-	border-radius: 20px;
-	background-color: rgba(252,251,230,0.80);
+	background-color: rgba(252,251,230,0.90);
 	
 }
 div.images{
@@ -550,10 +533,15 @@ figure.emotes {
 }
 
 figure{
+	clear:both;
+	display:inline-block;
 	margin:auto;
 	padding:5px;
 	width: 100%;
-	display:inline-block;
+}
+
+figure img{
+	vertical-align: top;
 }
 
 figure.firgure-6{
