@@ -341,6 +341,14 @@ h2{
 	padding:5px;
 	font-weight:700;}
 
+h3{
+	text-shadow: -2px 2px 5px black;
+	font-size:20px;
+	font-style: bold;
+	font-weight: 500;
+	padding:5px 5px 15px 5px;
+	color:white; }
+
 h4{
 	text-shadow: -2px 2px 5px black;
 	font-size:12px;
@@ -376,9 +384,9 @@ figcaption {
 	text-align: center;
 	font-family: 'Catamaran';
 	font-style:italic;
-	font-weight: 500;
-	font-size:13px;
-	letter-spacing: 1px;
+	font-weight: 400;
+	font-size:12px;
+	letter-spacing: 0px;
 	color:white;
 	padding: 0px;
 }
@@ -408,6 +416,22 @@ div.box{
 	border-radius: 20px;
 	background-color: rgba(8,8,10,0.90);
 	box-shadow: 0px 10px 10px black;
+}
+
+div.game-social{
+	display:inline-block;
+	align-content: center;
+	padding:20px;
+	margin:20px;
+	border-radius:20px;
+	background-color: rgba(40,41,51,0.90);
+	width:150px;
+	height:200px;
+}
+
+div.game-social img{
+	border-radius: 20px;
+	width:100px;
 	
 }
 
@@ -502,7 +526,7 @@ table { border-collapse: collapse; border-spacing: 0;
 	display: inline-block;}
 
 .img-social .img-top {
-	height:50px;
+	height:80px;
 	transition: 0.4s;
 	display: none;
 	position: absolute;
@@ -511,7 +535,7 @@ table { border-collapse: collapse; border-spacing: 0;
 	z-index: 2;}
 
 .img-social .img-bottom{
-	height:50px;
+	height:80px;
 	opacity:0.4;
 }
 
