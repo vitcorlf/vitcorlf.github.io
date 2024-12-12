@@ -373,7 +373,7 @@ figcaption {
 	font-weight: 500;
 	font-size:13px;
 	letter-spacing: 1px;
-	color:black;
+	color:white;
 	padding: 0px;
 }
 
@@ -389,7 +389,7 @@ figcaption {
 /*//////////////////////////////////////////////////////////Divs e Divisões*/
 
 div.box{
-	background-color: rgba(252,251,230,0.90);
+	background-color: rgba(27,26,26,0.80);
 	
 }
 div.images{
