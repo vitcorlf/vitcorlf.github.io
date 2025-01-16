@@ -816,6 +816,7 @@ figure.firgure-6{
 
 /*//////////////////Botões*/
 .button{
+  text-align: center;
   background-color: #D60D47; /* Pink */
   color: #FFF;
   padding: 15px;
@@ -823,7 +824,6 @@ figure.firgure-6{
   width: 100%;
   transition-duration: 0.4s;
   border-radius: 8px;
-  text-align: center;
   text-decoration: none;
   display: block;
   font-size: 16px;
